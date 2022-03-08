@@ -1,0 +1,76 @@
+{
+  "vtex.menu@2.x:menu#contact-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#item-contact"
+    ]
+  },
+  "menu-item#item-contact": {
+    "props": {
+      "id": "menu-item-contact",
+      "blockClass": "item-contact",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Entre em contato",
+        "text": "Entre em contato"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#item-contact"
+    ]
+  },
+  "vtex.menu@2.x:submenu#item-contact": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#item-contact"
+    ]
+  },
+  "vtex.menu@2.x:menu#item-contact": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#item-contact-central",
+      "menu-item#item-contact-whatsapp"
+    ]
+  },
+  "menu-item#item-contact-central": {
+    "props": {
+      "id": "menu-item-contact-central",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/central-de-atendimento",
+        "noFollow": false,
+        "tagTitle": "Central de Atendimento",
+        "text": "Central de Atendimento"
+      }
+    }
+  },
+  "menu-item#item-contact-whatsapp": {
+    "props": {
+      "id": "menu-item-contact-whatsapp",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://api.whatsapp.com/send?phone=5541995227592",
+        "noFollow": false,
+        "tagTitle": "Whatsapp",
+        "text": "Whatsapp"
+      }
+    }
+  }
+}

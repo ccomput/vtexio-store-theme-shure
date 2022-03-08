@@ -1,0 +1,146 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#banner-second",
+      //"flex-layout.row#deals",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "rich-text#shelf-title-lancamentos",
+      "flex-layout.row#shelf-lancamentos",
+      "flex-layout.row#banner-fluid",
+      "rich-text#aplicaciones-title",
+      "flex-layout.row#aplicaciones-fluid"
+      //"info-card#home",
+      //"rich-text#question",
+      //"rich-text#link",
+      //"newsletter"
+    ]
+  },
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 640,
+      "images": [
+        {
+          "image": "/arquivos/Novo_layout_SM7B_desktop_-min.jpg",
+          "mobileImage": "https://shuremx.vteximg.com.br/arquivos/SM7B_banner_mobile.jpg"
+        },
+        {
+          "image": "/arquivos/banner_sm58_desktop.jpg",
+          "mobileImage": "https://shuremx.vteximg.com.br/arquivos/Novo_layout_SM58_mobile.jpg"
+        },
+        {
+          "image": "/arquivos/MV7_GUIA_PODCAST_desktop_opc2_.jpg",
+          "mobileImage": "https://shuremx.vteximg.com.br/arquivos/MV7_LIFESTYLE_MOBILE_LATAM.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Destaques",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title-lancamentos": {
+    "props": {
+      "text": "## Lançamentos",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#aplicaciones-title": {
+    "props": {
+      "text": "## A solução ideal para você",
+      "blockClass": "shelfTitle-app"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "props": {
+      "blockClass": "shelfBg",
+      "paddingBottom": 6
+    },
+    "children": ["list-context.product-list#demo1"]
+  },
+  "flex-layout.row#shelf-lancamentos": {
+    "props": {
+      "blockClass": "shelfBg",
+      "paddingBottom": 6
+    },
+    "children": ["list-context.product-list#lancamentos"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "144",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "list-context.product-list#lancamentos": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "category": "21",
+      "collection": "",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  }
+}

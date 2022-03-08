@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#banner-fluid": {
+      "children": [
+        "flex-layout.col#fluid1",
+        "flex-layout.col#fluid2"
+      ],
+      "props": {
+        "fullWidth": true,
+        "marginTop": 0,
+        "blockClass": "fluid"
+      }
+    },
+
+    "flex-layout.col#fluid1": {
+        "children": [
+          "image#fluidc1",
+          "image#fluidc1-mobile"
+        ]
+    },
+    "image#fluidc1": {
+        "props": {
+          "src": "/arquivos/MV7_VERSAO2_DESKTOP_.jpg",
+          "blockClass": "desktop",
+          "link": "/microfone-podcast-shure-mv7/p"
+        }
+    },
+    "image#fluidc1-mobile": {
+      "props": {
+        "src": "/arquivos/microfone_podcast_mv7_loja_shure_oficial.jpg",
+        "blockClass": "mobile",
+        "link": "/microfone-podcast-shure-mv7/p"
+      }
+  },
+
+    "flex-layout.col#fluid2": {
+        "children": [
+          "image#fluidc2",
+          "image#fluidc2-mobile"
+        ]
+    },
+    "image#fluidc2": {
+        "props": {
+          "src": "/arquivos/SM7B_VER_MENOR_4SCROLL_DESKTOP_-min-min.jpg",
+          "blockClass": "desktop",
+          "link": "/microfone-para-estudio-shure-sm7b/p"
+        }
+    },
+    "image#fluidc2-mobile": {
+      "props": {
+        "src": "/arquivos/microfone_para_voz_sm7b_loja_shure_oficial.jpg",
+        "blockClass": "mobile",
+        "link": "/microfone-para-estudio-shure-sm7b/p"
+      }
+  }
+}

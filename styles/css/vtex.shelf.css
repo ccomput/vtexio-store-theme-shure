@@ -1,0 +1,17 @@
+.title {
+    font-family: OstrichProper,din-2014,Arial,sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+    text-align: left !important;
+    text-transform: uppercase;
+}
+.slide {
+    padding: 1rem 0;
+}
+.dot--isActive {
+    background-color: #b2ff33;
+}
+@media only screen and (max-width: 640px) {
+    
+}

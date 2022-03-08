@@ -1,0 +1,11 @@
+.input {
+    width: 500px;
+    border: 0 !important;
+    color: #3f3f40;
+}
+
+@media only screen and (max-width: 640px) {
+    .input {
+        width: 110%;
+    }
+}

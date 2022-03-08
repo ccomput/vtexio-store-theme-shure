@@ -1,0 +1,1308 @@
+{
+  "vtex.menu@2.x:menu#categoria-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#categoria",
+      "menu-item#aplicacao",
+      "menu-item#lancamentos",
+      "menu-item#promocoes"
+    ]
+  },
+
+  "menu-item#categoria": {
+    "props": {
+      "id": "menu-item-categoria",
+      "blockClass": "menu-main",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Compre por Categoria",
+        "text": "Compre por Categoria"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#categoria"
+    ]
+  },
+  "vtex.menu@2.x:submenu#categoria": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#categoria"
+    ]
+  },
+  "vtex.menu@2.x:menu#categoria": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#categoria-microfones-com-fio",
+      "menu-item#categoria-microfones-sem-fio",
+      "menu-item#categoria-microfones-digitais",
+      "menu-item#categoria-fones-in-ear-sem-fio",
+      "menu-item#categoria-fones-in-ear-com-fio",
+      "menu-item#categoria-headphones",
+      "menu-item#categoria-acessorios",
+      "menu-item#categoria-roupas-e-acessorios"
+    ]
+  },
+
+  "menu-item#categoria-microfones-com-fio": {
+    "props": {
+      "id": "menu-item-categoria-microfones-com-fio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfones",
+        "noFollow": false,
+        "tagTitle": "Microfones com Fio",
+        "text": "Microfones com Fio"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#microfones-com-fio"]
+  },
+  "vtex.menu@2.x:submenu#microfones-com-fio": {
+    "children": [
+      "vtex.menu@2.x:menu#microfones-com-fio"
+    ]
+  },
+  "vtex.menu@2.x:menu#microfones-com-fio": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#beta58a",
+      "menu-item#cvl",
+      "menu-item#sm7b",
+      "menu-item#sm57",
+      "menu-item#sm58",
+      "menu-item#55sh",
+      "menu-item#super55",
+      "menu-item#pga31"
+    ]
+  },
+  "menu-item#beta58a": {
+    "props": {
+      "id": "menu-item-beta58a",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-beta-58a/p",
+        "noFollow": false,
+        "tagTitle": "Beta 58A",
+        "text": "Beta 58A"
+      }
+    }
+  },
+  "menu-item#cvl": {
+    "props": {
+      "id": "menu-item-cvl",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-lapela-cvl/p",
+        "noFollow": false,
+        "tagTitle": "CVL",
+        "text": "CVL"
+      }
+    }
+  },
+  "menu-item#sm7b": {
+    "props": {
+      "id": "menu-item-sm7b",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-para-estudio-shure-sm7b/p",
+        "noFollow": false,
+        "tagTitle": "SM7B",
+        "text": "SM7B"
+      }
+    }
+  },
+  "menu-item#sm57": {
+    "props": {
+      "id": "menu-item-sm57",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-para-instrumentos-sm57/p",
+        "noFollow": false,
+        "tagTitle": "SM57",
+        "text": "SM57"
+      }
+    }
+  },
+  "menu-item#sm58": {
+    "props": {
+      "id": "menu-item-sm58",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-vocal-sm58/p",
+        "noFollow": false,
+        "tagTitle": "SM58",
+        "text": "SM58"
+      }
+    }
+  },
+  "menu-item#55sh": {
+    "props": {
+      "id": "menu-item-55sh",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-classico-voz-shure-55sh/p",
+        "noFollow": false,
+        "tagTitle": "55SH",
+        "text": "55SH"
+      }
+    }
+  },
+  "menu-item#super55": {
+    "props": {
+      "id": "menu-item-super55",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-classico-voz-shure-super55/p",
+        "noFollow": false,
+        "tagTitle": "Super 55",
+        "text": "Super 55"
+      }
+    }
+  },
+  "menu-item#pga31": {
+    "props": {
+      "id": "menu-item-super55",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-shure-pga31/p",
+        "noFollow": false,
+        "tagTitle": "PGA31",
+        "text": "PGA31"
+      }
+    }
+  },
+
+
+  "menu-item#categoria-microfones-sem-fio": {
+    "props": {
+      "id": "menu-item-categoria-microfones-sem-fio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfones/microfones-sem-fio",
+        "noFollow": false,
+        "tagTitle": "Microfones sem Fio",
+        "text": "Microfones sem Fio"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#microfones-sem-fio"]
+  },
+  "vtex.menu@2.x:submenu#microfones-sem-fio": {
+    "children": [
+      "vtex.menu@2.x:menu#microfones-sem-fio"
+    ]
+  },
+  "vtex.menu@2.x:menu#microfones-sem-fio": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#blx14",
+      "menu-item#blx14-cvl",
+      "menu-item#blx24-sm58",
+      "menu-item#blx24-b58"
+    ]
+  },
+  "menu-item#blx14": {
+    "props": {
+      "id": "menu-item-blx14",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-sem-fio-para-guitarristas-blx14/p",
+        "noFollow": false,
+        "tagTitle": "BLX14",
+        "text": "BLX14"
+      }
+    }
+  },
+  "menu-item#blx14-cvl": {
+    "props": {
+      "id": "menu-item-blx14-cvl",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-de-lapela-sem-fio-blx14-cvl/p",
+        "noFollow": false,
+        "tagTitle": "BLX14/CLV",
+        "text": "BLX14/CVL"
+      }
+    }
+  },
+  "menu-item#blx24-sm58": {
+    "props": {
+      "id": "menu-item-blx24-sm58",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-sem-fio-blx24-sm58/p",
+        "noFollow": false,
+        "tagTitle": "BLX24/SM58",
+        "text": "BLX24/SM58"
+      }
+    }
+  },
+  "menu-item#blx24-b58": {
+    "props": {
+      "id": "menu-item-blx24-b58",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-sem-fio-blx24-b58/p",
+        "noFollow": false,
+        "tagTitle": "BLX24/B58",
+        "text": "BLX24/B58"
+      }
+    }
+  },
+
+
+
+  "menu-item#categoria-microfones-digitais": {
+    "props": {
+      "id": "menu-item-categoria-microfones-digitais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfones/microfones-digitais",
+        "noFollow": false,
+        "tagTitle": "Microfones Digitais",
+        "text": "Microfones Digitais"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#microfones-digitais"]
+  },
+  "vtex.menu@2.x:submenu#microfones-digitais": {
+    "children": [
+      "vtex.menu@2.x:menu#microfones-digitais"
+    ]
+  },
+  "vtex.menu@2.x:menu#microfones-digitais": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mv7",
+      "menu-item#mv7-k",
+      "menu-item#mv88",
+      "menu-item#mv88+",
+      "menu-item#mv88-stereo",
+      "menu-item#mv5",
+      "menu-item#mv5c",
+      "menu-item#mv51",
+      "menu-item#mvl",
+      "menu-item#mvi",
+      "menu-item#kit-home-studio",
+      "menu-item#kit-youtuber"
+    ]
+  },
+  "menu-item#mv7": {
+    "props": {
+      "id": "menu-item-mv7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-podcast-shure-mv7/p",
+        "noFollow": false,
+        "tagTitle": "MV7",
+        "text": "MV7"
+      }
+    }
+  },
+  "menu-item#mv7-k": {
+    "props": {
+      "id": "menu-item-mv7-k",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kit-podcast-microfone-shure-mv7-com-tripe-manfrotto/p",
+        "noFollow": false,
+        "tagTitle": "MV7-K-BNDL",
+        "text": "MV7-K-BNDL"
+      }
+    }
+  },
+  "menu-item#mv88": {
+    "props": {
+      "id": "menu-item-mv88",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-condensador-digital-ios-shure-mv88/p",
+        "noFollow": false,
+        "tagTitle": "MV88",
+        "text": "MV88"
+      }
+    }
+  },
+  "menu-item#mv88+": {
+    "props": {
+      "id": "menu-item-mv88+",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kit-de-gravacao-de-video-motiv-shure-mv88/p",
+        "noFollow": false,
+        "tagTitle": "MV88+",
+        "text": "MV88+"
+      }
+    }
+  },
+  "menu-item#mv88-stereo": {
+    "props": {
+      "id": "menu-item-mv88-stereo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-condensador-shure-mv88--stereo-usb/p",
+        "noFollow": false,
+        "tagTitle": "MV88+STEREO",
+        "text": "MV88+STEREO"
+      }
+    }
+  },
+  "menu-item#mv5": {
+    "props": {
+      "id": "menu-item-mv5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-motiv-mv5/p",
+        "noFollow": false,
+        "tagTitle": "MV5",
+        "text": "MV5"
+      }
+    }
+  },
+  "menu-item#mv5c": {
+    "props": {
+      "id": "menu-item-mv5c",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-digital-mv5c/p",
+        "noFollow": false,
+        "tagTitle": "MV5C",
+        "text": "MV5C"
+      }
+    }
+  },
+  "menu-item#mv51": {
+    "props": {
+      "id": "menu-item-mv51",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-digital-portatil-de-shure-mv51/p",
+        "noFollow": false,
+        "tagTitle": "MV51",
+        "text": "MV51"
+      }
+    }
+  },
+  "menu-item#mvl": {
+    "props": {
+      "id": "menu-item-mvl",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-de-lapela-omnidirecional-shure-mvl/p",
+        "noFollow": false,
+        "tagTitle": "MVL",
+        "text": "MVL"
+      }
+    }
+  },
+  "menu-item#mvi": {
+    "props": {
+      "id": "menu-item-mvi",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/interface-de-audio-digital-shure-mvi/p",
+        "noFollow": false,
+        "tagTitle": "MVi",
+        "text": "MVi"
+      }
+    }
+  },
+  "menu-item#kit-home-studio": {
+    "props": {
+      "id": "menu-item-kit-home-studio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kit-gravacao-home-studio-motiv-shure/p",
+        "noFollow": false,
+        "tagTitle": "Kit Home Studio",
+        "text": "Kit Home Studio"
+      }
+    }
+  },
+  "menu-item#kit-youtuber": {
+    "props": {
+      "id": "menu-item-kit-youtuber",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kit-youtuber/p",
+        "noFollow": false,
+        "tagTitle": "Kit Youtuber",
+        "text": "Kit Youtuber"
+      }
+    }
+  },
+
+
+
+
+
+  "menu-item#categoria-fones-in-ear-sem-fio": {
+    "props": {
+      "id": "menu-item-categoria-fones-in-ear-sem-fio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fones-de-ouvido/fones-in-ear-sem-fio",
+        "noFollow": false,
+        "tagTitle": "Fones In-Ear sem fio",
+        "text": "Fones In-Ear sem fio"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#fones-in-ear-sem-fio"]
+  },
+  "vtex.menu@2.x:submenu#fones-in-ear-sem-fio": {
+    "children": [
+      "vtex.menu@2.x:menu#fones-in-ear-sem-fio"
+    ]
+  },
+  "vtex.menu@2.x:menu#fones-in-ear-sem-fio": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#aonic215",
+      "menu-item#se112-bt1",
+      "menu-item#se215bt",
+      "menu-item#cabo-bluetooth"
+    ]
+  },
+  "menu-item#aonic215": {
+    "props": {
+      "id": "menu-item-aonic215",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-de-ouvido-sem-fio-aonic215/p",
+        "noFollow": false,
+        "tagTitle": "AONIC 215",
+        "text": "AONIC 215"
+      }
+    }
+  },
+  "menu-item#se112-bt1": {
+    "props": {
+      "id": "menu-item-se112-bt1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-in-ear-sem-fio-com-conexao-bluetooth-se112-bt1/p",
+        "noFollow": false,
+        "tagTitle": "SE112 sem Fio",
+        "text": "SE112 sem Fio"
+      }
+    }
+  },
+  "menu-item#se215bt": {
+    "props": {
+      "id": "menu-item-se215bt",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-in-ear-sem-fio-bluetooth-SE215BT/p",
+        "noFollow": false,
+        "tagTitle": "SE215 sem Fio",
+        "text": "SE215 sem Fio"
+      }
+    }
+  },
+  "menu-item#cabo-bluetooth": {
+    "props": {
+      "id": "menu-item-cabo-bluetooth",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cabo-bluetooth-RMCE-BT1/p",
+        "noFollow": false,
+        "tagTitle": "Cabo Bluetooth",
+        "text": "Cabo Bluetooth"
+      }
+    }
+  },
+
+
+
+
+
+  "menu-item#categoria-fones-in-ear-com-fio": {
+    "props": {
+      "id": "menu-item-categoria-fones-in-ear-com-fio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fones-de-ouvido/fones-in-ear-profissionais",
+        "noFollow": false,
+        "tagTitle": "Fones In-Ear com fio",
+        "text": "Fones In-Ear com fio"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#fones-in-ear-com-fio"]
+  },
+  "vtex.menu@2.x:submenu#fones-in-ear-com-fio": {
+    "children": [
+      "vtex.menu@2.x:menu#fones-in-ear-com-fio"
+    ]
+  },
+  "vtex.menu@2.x:menu#fones-in-ear-com-fio": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#aonic-3",
+      "menu-item#aonic-4",
+      "menu-item#aonic-5",
+      "menu-item#aonic-215-com-fio",
+      "menu-item#se215",
+      "menu-item#se425",
+      "menu-item#se535",
+      "menu-item#se846"
+    ]
+  },
+  "menu-item#aonic-3": {
+    "props": {
+      "id": "menu-item-aonic-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-ouvido-in-ear-shure-aonic-3/p",
+        "noFollow": false,
+        "tagTitle": "AONIC 3",
+        "text": "AONIC 3"
+      }
+    }
+  },
+  "menu-item#aonic-4": {
+    "props": {
+      "id": "menu-item-aonic-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-ouvido-in-ear-shure-aonic-4/p",
+        "noFollow": false,
+        "tagTitle": "AONIC 4",
+        "text": "AONIC 4"
+      }
+    }
+  },
+  "menu-item#aonic-5": {
+    "props": {
+      "id": "menu-item-aonic-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-ouvido-in-ear-shure-aonic-5/p",
+        "noFollow": false,
+        "tagTitle": "AONIC 5",
+        "text": "AONIC 5"
+      }
+    }
+  },
+  "menu-item#aonic-215-com-fio": {
+    "props": {
+      "id": "menu-item-aonic-215-com-fio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-ouvido-shure-aonic-215-com-fio/p",
+        "noFollow": false,
+        "tagTitle": "AONIC 215 com Fio",
+        "text": "AONIC 215 com Fio"
+      }
+    }
+  },
+  "menu-item#se215": {
+    "props": {
+      "id": "menu-item-se215",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-in-ear-profissional-SE215/p",
+        "noFollow": false,
+        "tagTitle": "SE215",
+        "text": "SE215"
+      }
+    }
+  },
+  "menu-item#se425": {
+    "props": {
+      "id": "menu-item-se425",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-in-ear-profissional-SE425/p",
+        "noFollow": false,
+        "tagTitle": "SE425",
+        "text": "SE425"
+      }
+    }
+  },
+  "menu-item#se535": {
+    "props": {
+      "id": "menu-item-se535",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-in-ear-profissional-SE535/p",
+        "noFollow": false,
+        "tagTitle": "SE535",
+        "text": "SE535"
+      }
+    }
+  },
+  "menu-item#se846": {
+    "props": {
+      "id": "menu-item-se846",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-in-ear-profissional-SE846/p",
+        "noFollow": false,
+        "tagTitle": "SE846",
+        "text": "SE846"
+      }
+    }
+  },
+
+
+
+  
+  "menu-item#categoria-headphones": {
+    "props": {
+      "id": "menu-item-categoria-headphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fones-de-ouvido/headphones",
+        "noFollow": false,
+        "tagTitle": "Headphones",
+        "text": "Headphones"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#headphones"]
+  },
+  "vtex.menu@2.x:submenu#headphones": {
+    "children": [
+      "vtex.menu@2.x:menu#headphones"
+    ]
+  },
+  "vtex.menu@2.x:menu#headphones": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#aonic-50",
+      "menu-item#fones-dj",
+      "menu-item#srh240a",
+      "menu-item#srh440",
+      "menu-item#srh840",
+      "menu-item#srh940",
+      "menu-item#srh1440"
+    ]
+  },
+  "menu-item#aonic-50": {
+    "props": {
+      "id": "menu-item-aonic-50",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/aonic-50/p",
+        "noFollow": false,
+        "tagTitle": "AONIC 50",
+        "text": "AONIC 50"
+      }
+    }
+  },
+  "menu-item#fones-dj": {
+    "props": {
+      "id": "menu-item-fones-dj",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fones-de-ouvido/headphones/fones-dj",
+        "noFollow": false,
+        "tagTitle": "Fones DJ",
+        "text": "Fones DJ"
+      }
+    }
+  },
+  "menu-item#srh240a": {
+    "props": {
+      "id": "menu-item-srh240a",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-de-ouvido-profissional-SRH240/p",
+        "noFollow": false,
+        "tagTitle": "SRH240A",
+        "text": "SRH240A"
+      }
+    }
+  },
+  "menu-item#srh440": {
+    "props": {
+      "id": "menu-item-srh440",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-de-ouvido-profissional-para-gravacoes-em-estudio-SRH440/p",
+        "noFollow": false,
+        "tagTitle": "SRH440",
+        "text": "SRH440"
+      }
+    }
+  },
+  "menu-item#srh840": {
+    "props": {
+      "id": "menu-item-srh840",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-de-ouvido-srh840/p",
+        "noFollow": false,
+        "tagTitle": "SRH840",
+        "text": "SRH840"
+      }
+    }
+  },
+  "menu-item#srh940": {
+    "props": {
+      "id": "menu-item-srh940",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-de-ouvido-srh940/p",
+        "noFollow": false,
+        "tagTitle": "SRH940",
+        "text": "SRH940"
+      }
+    }
+  },
+  "menu-item#srh1440": {
+    "props": {
+      "id": "menu-item-srh1440",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-de-ouvido-srh1440/p",
+        "noFollow": false,
+        "tagTitle": "SRH1440",
+        "text": "SRH1440"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#categoria-acessorios": {
+    "props": {
+      "id": "menu-item-categoria-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#acessorios"]
+  },
+
+  "vtex.menu@2.x:submenu#acessorios": {
+    "children": [
+      "vtex.menu@2.x:menu#acessorios"
+    ]
+  },
+  "vtex.menu@2.x:menu#acessorios": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#para-microfones",
+      "menu-item#para-fones"
+    ]
+  },
+  "menu-item#para-microfones": {
+    "props": {
+      "id": "menu-item-para-microfones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/microfones",
+        "noFollow": false,
+        "tagTitle": "Para Microfones",
+        "text": "Para Microfones"
+      }
+    }
+  },
+  "menu-item#para-fones": {
+    "props": {
+      "id": "menu-item-para-fones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/fones",
+        "noFollow": false,
+        "tagTitle": "Para Fones de Ouvido",
+        "text": "Para Fones de Ouvido"
+      }
+    }
+  },
+  
+
+
+  "menu-item#categoria-roupas-e-acessorios": {
+    "props": {
+      "id": "menu-item-categoria-roupas-e-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/roupas-e-acessorios",
+        "noFollow": false,
+        "tagTitle": "Roupas e Acessórios",
+        "text": "Roupas e Acessórios"
+      }
+    }
+  },
+
+
+  "menu-item#aplicacao": {
+    "props": {
+      "id": "menu-item-aplicacao",
+      "blockClass": "menu-main",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Compre por Aplicação",
+        "text": "Compre por Aplicação"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#aplicacao"
+    ]
+  },
+  "vtex.menu@2.x:submenu#aplicacao": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#aplicacao"
+    ]
+  },
+  "vtex.menu@2.x:menu#aplicacao": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#aplicacao-podcasters",
+      "menu-item#aplicacao-radio",
+      "menu-item#aplicacao-musicos",
+      "menu-item#aplicacao-youtubers",
+      "menu-item#aplicacao-professores",
+      "menu-item#aplicacao-gamers",
+      "menu-item#aplicacao-igrejas",
+      "menu-item#aplicacao-academias",
+      "menu-item#aplicacao-home-office"
+    ]
+  },
+  "menu-item#aplicacao-podcasters": {
+    "props": {
+      "id": "menu-item-aplicacao-podcasters",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfones-para-podcast-shure",
+        "noFollow": false,
+        "tagTitle": "Podcast",
+        "text": "Podcast"
+      }
+    }
+  },
+  "menu-item#aplicacao-radio": {
+    "props": {
+      "id": "menu-item-aplicacao-radio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfones-fones-radio-shure",
+        "noFollow": false,
+        "tagTitle": "Radio",
+        "text": "Radio"
+      }
+    }
+  },
+  "menu-item#aplicacao-musicos": {
+    "props": {
+      "id": "menu-item-aplicacao-musicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfones-para-cantar-microfones-para-instrumento",
+        "noFollow": false,
+        "tagTitle": "Musicos",
+        "text": "Musicos"
+      }
+    }
+  },
+  "menu-item#aplicacao-youtubers": {
+    "props": {
+      "id": "menu-item-aplicacao-youtubers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-para-youtuber-microfone-para-gravar-vide",
+        "noFollow": false,
+        "tagTitle": "Youtubers",
+        "text": "Youtubers"
+      }
+    }
+  },
+  "menu-item#aplicacao-professores": {
+    "props": {
+      "id": "menu-item-aplicacao-professores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-para-professores-shure",
+        "noFollow": false,
+        "tagTitle": "Professores",
+        "text": "Professores"
+      }
+    }
+  },
+  "menu-item#aplicacao-gamers": {
+    "props": {
+      "id": "menu-item-aplicacao-gamers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfone-gamer-shure",
+        "noFollow": false,
+        "tagTitle": "Gamers",
+        "text": "Gamers"
+      }
+    }
+  },
+  "menu-item#aplicacao-igrejas": {
+    "props": {
+      "id": "menu-item-aplicacao-igrejas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfones-para-igrejas-shure",
+        "noFollow": false,
+        "tagTitle": "Igrejas",
+        "text": "Igrejas"
+      }
+    }
+  },
+  "menu-item#aplicacao-academias": {
+    "props": {
+      "id": "menu-item-aplicacao-academias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfones-para-academias-shure",
+        "noFollow": false,
+        "tagTitle": "Academias",
+        "text": "Academias"
+      }
+    }
+  },
+  "menu-item#aplicacao-home-office": {
+    "props": {
+      "id": "menu-item-aplicacao-home-office",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfones-para-homeoffice-shure",
+        "noFollow": false,
+        "tagTitle": "Home Office",
+        "text": "Home Office"
+      }
+    }
+  },
+
+
+  "menu-item#lancamentos": {
+    "props": {
+      "id": "menu-item-lancamentos",
+      "blockClass": "menu-main",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamentos",
+        "noFollow": false,
+        "tagTitle": "Lançamentos",
+        "text": "Lançamentos"
+      }
+    }
+  },
+
+
+  "menu-item#promocoes": {
+    "props": {
+      "id": "menu-item-promocoes",
+      "blockClass": "menu-main",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kits/ofertas-especiais",
+        "noFollow": true,
+        "tagTitle": "Ofertas Especiais",
+        "text": "Ofertas Especiais"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#promocoes": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-promocoes"
+    ]
+  },
+  "flex-layout.row#menu-promocoes": {
+    "children": [
+      "flex-layout.col#menu-promocoes-1",
+      "flex-layout.col#menu-promocoes-2"
+    ]
+  },
+  "flex-layout.col#menu-promocoes-1": {
+    "children": [
+      "vtex.menu@2.x:menu#promocoes"
+    ]
+  },
+  "flex-layout.col#menu-promocoes-2": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "vtex.menu@2.x:menu#promocoes": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#aplicacao-musicos"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  }
+}

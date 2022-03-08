@@ -1,0 +1,40 @@
+{
+  "store.custom#datos-de-facturacion": {
+    "blocks": [
+      "flex-layout.row#datos-de-facturacion"
+    ]
+  },
+
+  "flex-layout.row#datos-de-facturacion": {
+    "children": [
+      "flex-layout.col#text-datos-de-facturacion"
+    ]
+  },
+
+  "flex-layout.col#text-datos-de-facturacion": {
+    "children": [
+      "rich-text#title-datos-de-facturacion",
+      "rich-text#datos-de-facturacion"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-datos-de-facturacion": {
+    "props": {
+      "text":
+      "# DATOS DE FACTURACIÓN",
+      "blockClass": "title"
+    }
+  },
+
+  "rich-text#datos-de-facturacion": {
+    "props": {
+      "text": "Si requieres facturación de tu compra te puedes poner en contacto al correo electrónico: \n infoshuremx@eyc.mx, o al teléfono (55) 55 43 47 63, con los siguientes datos:\n Razón social: \n RFC: \n Correo electrónico: \n Número Celular:",
+      "blockClass": "text"
+    }
+  }
+
+}

@@ -1,0 +1,114 @@
+{
+  "store.custom#microfonos-para-cantar-microfonos-para-instrumento": {
+    "blocks": [
+      "flex-layout.row#microfonos-para-cantar-microfonos-para-instrumento"
+    ]
+  },
+
+  "flex-layout.row#microfonos-para-cantar-microfonos-para-instrumento": {
+    "props": {
+      "fullWidth": "false"
+    },
+    "children": [
+      "flex-layout.col#microfonos-para-cantar-microfonos-para-instrumento"
+    ]
+  },
+
+  "flex-layout.col#microfonos-para-cantar-microfonos-para-instrumento": {
+    "children": [
+      "rich-text#title-microfonos-para-cantar-microfonos-para-instrumento",
+      "image#banner-microfonos-para-cantar-microfonos-para-instrumento",
+      "rich-text#text-microfonos-para-cantar-microfonos-para-instrumento",
+      "video#microfonos-para-cantar-microfonos-para-instrumento",
+      "rich-text#subtitle-microfonos-para-cantar-microfonos-para-instrumento",
+      "flex-layout.row#shelf-microfonos-para-cantar-microfonos-para-instrumento",
+      "rich-text#subtitle-kits-microfonos-para-cantar-microfonos-para-instrumento",
+      "flex-layout.row#shelf-kits-para-cantar"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "applicacionesColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-microfonos-para-cantar-microfonos-para-instrumento": {
+    "props": {
+      "text":
+      "# Microfonos para Podcast.",
+      "blockClass": "title"
+    }
+  },
+
+  "rich-text#subtitle-microfonos-para-cantar-microfonos-para-instrumento": {
+    "props": {
+      "text":
+      "## Confira os melhores microfones para podcast da Shure",
+      "blockClass": "subtitle"
+    }
+  },
+  "rich-text#subtitle-kits-microfonos-para-cantar-microfonos-para-instrumento": {
+    "props": {
+      "text":
+      "## Na Loja Shure você também tem a opção de adquirir kits completos para podcaters",
+      "blockClass": "subtitle"
+    }
+  },
+
+  "image#banner-microfonos-para-cantar-microfonos-para-instrumento": {
+    "props": {
+      "src": "https://lojashure.vteximg.com.br/arquivos/microfones-podcast-shure.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "banner"
+    }
+  },
+
+  "rich-text#text-microfonos-para-cantar-microfonos-para-instrumento": {
+    "props": {
+      "text": "Seja para quem está começando seu projeto e quer comprar seu primeiro microfone para podcast, seja para quem já produz seu conteúdo e quer dar um upgrade no microfone, a Shure tem a solução ideal para você dar o próximo passo.",
+      "blockClass": "text"
+    }
+  },
+
+  "video#microfonos-para-cantar-microfonos-para-instrumento": {
+    "props": {
+      "src": "https://www.youtube.com/embed/h5Pf80Wpcxk",
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+
+  "flex-layout.row#shelf-microfonos-para-cantar-microfonos-para-instrumento": {
+    "props": {
+      "blockClass": "shelfApplicaciones",
+      "paddingBottom": 6
+    },
+    "children": ["list-context.product-list#microfonos-para-cantar-microfonos-para-instrumento"]
+  },
+  "list-context.product-list#microfonos-para-cantar-microfonos-para-instrumento": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "178",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  "flex-layout.row#shelf-kits-para-cantar": {
+    "props": {
+      "blockClass": "shelfApplicaciones",
+      "paddingBottom": 6
+    },
+    "children": ["list-context.product-list#kits-para-cantar"]
+  },
+  "list-context.product-list#kits-para-cantar": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "178",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  }
+
+}

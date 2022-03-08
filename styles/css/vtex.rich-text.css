@@ -1,0 +1,289 @@
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle, .container--shelfTitle-app {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel5 {
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.headingLevel2--shelfTitle, .headingLevel2--shelfTitle-app {
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.heading--title-buen-fin, .heading--title-black-friday {
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.container--shelfTitle, .container--shelfTitle-app {
+  padding-top: 10px;
+  background-color: #f2f1f4;
+}
+
+.wrapper--endereco {
+  padding-right: 8rem;
+  font-size: 0.8rem;
+  color: #c4c4c4;
+}
+.heading--aplicacionesTitle {
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.paragraph--aplicacionesSubTitle {
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+.paragraph--footer {
+  color: #c4c4c4;
+}
+
+.wrapper--title-product {
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.wrapper--price-product {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.wrapper--price-sale-product {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.wrapper--button-product {
+  width: 100%;
+  height: 50px;
+  background-color: #b2ff33;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #000000;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.wrapper--button-product:hover {
+  background-color: #000000;
+  color: #b2ff33;
+}
+.paragraph--button-product {
+  margin: 8px;
+}
+.link--button-product, .link--title-product {
+  display: block;
+  width: 100%;
+  color: #000000;
+  text-decoration: none;
+}
+.wrapper--button-product:hover .link--button-product {
+  color: #b2ff33;
+}
+.paragraph--price-product, .paragraph--price-sale-product {
+  margin: 0;
+}
+.paragraph--price-product {
+  color: #777;
+}
+.paragraph--price-product::before {
+  content: 'Precio actual';
+  font-size: 1rem;
+  padding-right: 6px;
+}
+.paragraph--price-sale-product::before {
+  content: 'Precio Buen Fin';
+  font-size: 1rem;
+  padding-right: 6px;
+}
+.heading--text-buen-fin, .paragraph--text-buen-fin, .heading--text-black-friday, .paragraph--text-black-friday {
+  color: #ffffff;
+}
+
+.container--buy-corp-message {
+  display: none;
+  background-color: #ccc;
+  border-radius: 5px;
+}
+.paragraph--buy-corp-message {
+  margin: 0;
+  padding: 8px 0;
+}
+
+.container--selo-message {
+  background-color: #ccc;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  max-width: 400px;
+  position: absolute;
+}
+.paragraph--selo-message {
+  margin: 0;
+  padding: 8px 0;
+}
+
+
+.heading--landing-title, .wrapper--landing-paragraph {
+  color: #ffffff;
+}
+.wrapper--landing-paragraph {
+  font-family: OstrichProper, din-2014, Arial;
+  font-size: 1.25rem;
+}
+.strong--landing-title {
+  color: #b2ff33;
+}
+.heading--landing-step {
+  color: #b2ff33;
+  font-size: 3rem;
+  margin: 0;
+}
+.container--button-landing {
+  justify-content: left;
+}
+.wrapper--button-landing {
+  width: 60%;
+  height: 50px;
+  background-color: #b2ff33;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #000000;
+  text-transform: uppercase;
+  border-radius: 5px;
+  align-items: flex-start;
+  border: 0.2rem #b2ff33 solid;
+}
+.wrapper--button-landing:hover {
+  background-color: transparent;
+  border: 0.2rem solid #b2ff33;
+  color: #b2ff33;
+}
+.paragraph--button-landing {
+  margin: 5px;
+  text-transform: capitalize;
+}
+.link--button-landing {
+  display: block;
+  width: 100%;
+  color: #000000;
+  text-decoration: none;
+}
+.wrapper--button-landing:hover .link--button-landing {
+  color: #b2ff33;
+}
+.heading--options-product {
+  font-size: 1.2rem;
+  font-weight: 600 !important;
+  margin: 1rem 0 .5rem;
+}
+.paragraph--options-product-link {
+  margin: 0;
+}
+.link--options-product-link {
+  color: #000 !important;
+  font-size: 0.9rem;
+  font-weight: 600 !important;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+  .wrapper--button-landing {
+    width: 100%;
+  }
+  .wrapper--endereco {
+    padding: 0 20px;
+  }
+  .container--footer {
+    justify-content: center;
+  }
+  .headingLevel2--shelfTitle {
+    font-size: 2rem;
+  }
+  .container--shelfTitle-app {
+    display: none;
+  }
+}

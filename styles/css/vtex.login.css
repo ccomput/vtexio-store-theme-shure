@@ -1,0 +1,31 @@
+.label {
+    padding: 0.25rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.label:hover {
+    text-decoration: underline;
+    color: rgba(255,255,255,.75);
+}
+.label::before {
+    content: "";
+    background-image: url(assets/images/sprites-main.png);
+    background-position: -133px -176px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 0 auto;
+    padding-right: 6px;
+}
+
+@media only screen and (max-width: 640px) {
+    .label {
+        display: block;
+        color: #ffffff;
+        border: 1px #b2ff33 solid ;
+        padding: 0.25rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+}

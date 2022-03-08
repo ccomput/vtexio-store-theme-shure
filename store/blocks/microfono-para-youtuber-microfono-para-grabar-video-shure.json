@@ -1,0 +1,114 @@
+{
+  "store.custom#microfono-para-youtuber-microfono-para-grabar-video": {
+    "blocks": [
+      "flex-layout.row#microfono-para-youtuber-microfono-para-grabar-video"
+    ]
+  },
+
+  "flex-layout.row#microfono-para-youtuber-microfono-para-grabar-video": {
+    "props": {
+      "fullWidth": "false"
+    },
+    "children": [
+      "flex-layout.col#microfono-para-youtuber-microfono-para-grabar-video"
+    ]
+  },
+
+  "flex-layout.col#microfono-para-youtuber-microfono-para-grabar-video": {
+    "children": [
+      "rich-text#title-microfono-para-youtuber-microfono-para-grabar-video",
+      "image#banner-microfono-para-youtuber-microfono-para-grabar-video",
+      "rich-text#text-microfono-para-youtuber-microfono-para-grabar-video",
+      "video#microfono-para-youtuber-microfono-para-grabar-video",
+      "rich-text#subtitle-microfono-para-youtuber-microfono-para-grabar-video",
+      "flex-layout.row#shelf-microfono-para-youtuber-microfono-para-grabar-video",
+      "rich-text#subtitle-kits-microfono-para-youtuber-microfono-para-grabar-video",
+      "flex-layout.row#shelf-kits-para-youtuber"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "applicacionesColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-microfono-para-youtuber-microfono-para-grabar-video": {
+    "props": {
+      "text":
+      "# Microfonos para Podcast.",
+      "blockClass": "title"
+    }
+  },
+
+  "rich-text#subtitle-microfono-para-youtuber-microfono-para-grabar-video": {
+    "props": {
+      "text":
+      "## Confira os melhores microfones para podcast da Shure",
+      "blockClass": "subtitle"
+    }
+  },
+  "rich-text#subtitle-kits-microfono-para-youtuber-microfono-para-grabar-video": {
+    "props": {
+      "text":
+      "## Na Loja Shure você também tem a opção de adquirir kits completos para podcaters",
+      "blockClass": "subtitle"
+    }
+  },
+
+  "image#banner-microfono-para-youtuber-microfono-para-grabar-video": {
+    "props": {
+      "src": "https://lojashure.vteximg.com.br/arquivos/microfones-podcast-shure.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "banner"
+    }
+  },
+
+  "rich-text#text-microfono-para-youtuber-microfono-para-grabar-video": {
+    "props": {
+      "text": "Seja para quem está começando seu projeto e quer comprar seu primeiro microfone para podcast, seja para quem já produz seu conteúdo e quer dar um upgrade no microfone, a Shure tem a solução ideal para você dar o próximo passo.",
+      "blockClass": "text"
+    }
+  },
+
+  "video#microfono-para-youtuber-microfono-para-grabar-video": {
+    "props": {
+      "src": "https://www.youtube.com/embed/h5Pf80Wpcxk",
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+
+  "flex-layout.row#shelf-microfono-para-youtuber-microfono-para-grabar-video": {
+    "props": {
+      "blockClass": "shelfApplicaciones",
+      "paddingBottom": 6
+    },
+    "children": ["list-context.product-list#microfono-para-youtuber-microfono-para-grabar-video"]
+  },
+  "list-context.product-list#microfono-para-youtuber-microfono-para-grabar-video": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "178",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  "flex-layout.row#shelf-kits-para-youtuber": {
+    "props": {
+      "blockClass": "shelfApplicaciones",
+      "paddingBottom": 6
+    },
+    "children": ["list-context.product-list#kits-para-youtuber"]
+  },
+  "list-context.product-list#kits-para-youtuber": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "178",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  }
+
+}

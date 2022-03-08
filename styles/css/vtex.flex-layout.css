@@ -1,0 +1,303 @@
+.flexRowContent {
+  justify-content: center;
+}
+.flexRowContent--preco {
+  justify-content: start;
+  margin-bottom: 2px;
+}
+
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #03044e;
+  color: #fff;
+}
+
+.flexRowContent--main-header {
+  background-color: #000000;
+}
+
+.flexRowContent--main-header-menu {
+  background-color: #dbdbdb;
+  /*justify-content: left;*/
+}
+.flexRow--productSpecificationGroupName {
+  display: none;
+}
+.flexCol--productSpecificationName, .flexCol--productSpecificationValue {
+  padding: 2px 10px;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem 0;
+  background-color: #000000;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+.flexRow--deals {
+  background-color: #a7afbd;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+.flexRow--menu-row {
+  background-color: #000000;
+  padding-top: 2rem;
+}
+
+.flexRow--footer-two {
+  background-color: #000000;
+}
+
+.flexRowContent--footer-mobile {
+  background-color: #000000;
+}
+
+.flexRow--fluid, .flexRow--fluid-app {
+  background-color: #f2f1f4;
+  padding-bottom: 40px;
+}
+
+.flexCol--podcasters, .flexCol--musicos, .flexCol--jornalistas, .flexCol--youtubers, .flexCol--gamers {
+  margin: 0 10px;
+  min-height: 500px;
+  text-align: center;
+}
+.flexCol--podcasters {
+  background: #000000 url(assets/images/bg-podcaster.jpg) center center no-repeat;
+  background-size: cover;
+}
+.flexCol--musicos {
+  background: #000000 url(assets/images/bg-musicos.jpg) center center no-repeat;
+  background-size: cover;
+}
+.flexCol--jornalistas {
+  background: #000000 url(assets/images/bg-jornalistas.png) center center no-repeat;
+  background-size: cover;
+}
+.flexCol--youtubers {
+  background: #000000 url(assets/images/bg-youtubers.png) center center no-repeat;
+  background-size: cover;
+}
+.flexCol--gamers {
+  background: #000000 url(assets/images/bg-gamers.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.flexRow--shelfBg {
+  background-color: #f2f1f4;
+  padding: 10px 0;
+}
+.flexRow--rowbuenfin {
+  background-color: #f2f1f4;
+}
+
+.flexRow--countdown {
+  background-color: #000000;
+  min-height: 180px;
+  padding: 1rem 0;
+}
+
+/*.flexRow--button-buy {*/
+.flexRowContent--button-buy {
+  display: flex;
+  width: 70%;
+  background-color: #b2ff33;
+  box-shadow: 4px 4px 1px black;
+  border-radius: 5px;
+  min-height: 52px;
+  margin-bottom: 20px;
+}
+
+.flexRowContent--button-corp {
+  width: 70%;
+}
+
+.flexRow--main-header {
+  background-color: #000000;
+  border-bottom: 4px #b2ff33 solid;
+}
+.flexRow--second-header-mobile {
+  background-color: #000000;
+  border-bottom: 4px #b2ff33 solid;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.flexRow--footer-mobile {
+  background-color: #000000;
+}
+
+.flexRowContent--payment-methods-mobile {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.flexRowContent--footer-two {
+  border-top: 1px #191919 solid;
+  padding-top: 2rem;
+}
+
+.flexRow--main-header-menu {
+  background-color: #dbdbdb;
+}
+
+.flexRowContent--fluid-app .flexCol:hover {
+  opacity: 0.8;
+}
+
+.flexCol--productColumn {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+}
+.flexColChild--productColumn {
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.flexRow--row-buen-fin, .flexRow--row-black-friday {
+  background-color: #ffffff;
+  padding: 1rem 0 2rem;
+}
+.flexRow--banner {
+  background-color: #000000;
+}
+
+.flexCol--applicacionesColumn {
+  max-width: 1440px;
+}
+.flexRow--textbuenfin {
+  background-color: #000000;
+  color: #ffffff;
+}
+.flexRow--landing-banner, .flexRow--landing-two, .flexRow--landing-four, .flexRow--landing-six, .flexRow--landing-eight {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 2rem 10rem;
+}
+.flexRow--landing-one, .flexRow--landing-tree, .flexRow--landing-five, .flexRow--landing-seven {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  padding: 2rem 10rem;
+}
+.flexCol--landingColumn {
+  padding: 1rem;
+}
+.flexCol--selos {
+  flex-direction: row;
+}
+.flexRowContent--selos {
+  justify-content: flex-start ;
+}
+.flexRowContent--selos .stretchChildrenWidth {
+  max-width: 90px;
+  padding-right: 0;
+}
+.flexCol--selos-one .flexColChild--selos-one:last-child, .flexCol--selos-two .flexColChild--selos-two:last-child {
+  display: none;
+}
+.flexCol--selos-one:hover .flexColChild--selos-one:last-child, .flexCol--selos-two:hover .flexColChild--selos-two:last-child {
+  display: block;
+}
+
+@media screen and (max-width: 640px) {
+  .flexRow--landing-banner, .flexRow--landing-two, .flexRow--landing-four, .flexRow--landing-six, .flexRow--landing-eight, .flexRow--landing-one, .flexRow--landing-tree, .flexRow--landing-five, .flexRow--landing-seven {
+    padding: 0;
+  }
+  .flexCol--one {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .flexRowContent--button-buy {
+    width: 100%;
+  }
+  .flexRowContent--banner-second, .flexRow--fluid-app {
+    display: none;
+  }
+  .flexRow--fluid {
+    padding-bottom: 0;
+  }
+  .flexRow--countdown {
+    min-height: 50px;
+  }
+  .flexRowContent--button-corp {
+    width: 100%;
+  }
+  .flexRowContent--footer-two {
+    padding-bottom: 5.1rem;
+  }
+}

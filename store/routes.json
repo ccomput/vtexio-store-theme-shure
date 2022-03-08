@@ -1,0 +1,66 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#contact-us": {
+    "path": "/contact-us"
+  },
+  "store.custom#cambios-y-devoluciones": {
+    "path": "/trocas-e-devolucoes "
+  },
+  "store.custom#terminos-y-condiciones": {
+    "path": "/termos-e-condicoes"
+  },
+  "store.custom#politica-de-privacidad": {
+    "path": "/politica-de-privacidade"
+  },
+  "store.custom#politica-de-envio": {
+    "path": "/politica-de-envio"
+  },
+  "store.custom#datos-de-facturacion": {
+    "path": "/dados-de-faturamento"
+  },
+  "store.custom#buen-fin": {
+    "path": "/buen-fin"
+  },
+  "store.custom#black-friday": {
+    "path": "/black-friday"
+  },
+  "store.custom#navidad": {
+    "path": "/navidad-shure"
+  },
+  "store.custom#microfonos-para-podcast": {
+    "path": "/microfones-para-podcast-shure"
+  },
+  "store.custom#microfonos-radio": {
+    "path": "/microfones-fones-radio-shure"
+  },
+  "store.custom#microfonos-para-cantar-microfonos-para-instrumento": {
+    "path": "/microfones-para-cantar-microfones-para-instrumento"
+  },
+  "store.custom#microfono-para-youtuber-microfono-para-grabar-video": {
+    "path": "/microfone-para-youtuber-microfone-para-gravar-vide"
+  },
+  "store.custom#microfono-para-clases": {
+    "path": "/microfone-para-professores-shure"
+  },
+  "store.custom#microfono-gamer": {
+    "path": "/microfone-gamer-shure"
+  },
+  "store.custom#microfonos-para-iglesias": {
+    "path": "/microfones-para-igrejas-shure"
+  },
+  "store.custom#microfonos-para-fitness": {
+    "path": "/microfones-para-academias-shure"
+  },
+  "store.custom#microfonos-para-trabajar-desde-casa": {
+    "path": "/microfones-para-homeoffice-shure"
+  },
+  "store.custom#landing-page-default": {
+    "path": "/equipos-originales-de-shure"
+  }
+  
+}

@@ -1,0 +1,267 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      //"flex-layout.row#2-desktop",
+      //"flex-layout.row#3-desktop",
+      "sticky-layout#4-desktop"//,
+      //"list-context.image-list#tarja-default"
+    ]
+  },
+
+  "flex-layout.row#bannerTarja": {
+    "props": {
+      "blockClass": "bannerTarja",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  "list-context.image-list#tarja-default": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "blockClass": "bannerTarja",
+      "height": 42,
+      "images": [
+        {
+          "image": "/arquivos/mv7_desktop.jpg",
+          "mobileImage": "https://shuremx.vteximg.com.br/arquivos/sm58_mx_mobile.jpg"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "children": ["notification.bar#home"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "PROMOÇÕES"
+    }
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#websites",
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#institutional"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#4-desktop",
+      "flex-layout.row#5-desktop"
+    ]
+  },
+  
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "flex-layout.col#spacer",
+      //"locale-switcher",
+      "flex-layout.col#contact",
+      "login",
+      "minicart.v2"
+      //"flex-layout.row#main-right"
+    ]
+  },
+
+  "flex-layout.row#main-right": {
+    "children": [
+      "flex-layout.col#contact",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": ""
+    }
+  },
+
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "flex-layout.col#categoria-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#categoria-menu"]
+  },
+  "flex-layout.col#contact": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#contact-menu"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Loja Shure",
+      "href": "/",
+      "url": "/arquivos/shure_branding_clean.png",
+      "width": "170"
+    }
+  },
+  //"flex-layout.col#contact-menu": {
+  //  "props": {
+  //    "verticalAlign": "middle"
+  //  },
+  //  "children": ["vtex.menu@2.x:menu#contact-menu"]
+  //},
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile",
+      "list-context.image-list#tarja-default"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "flex-layout.col#spacer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      //"login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#2-mobile": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "second-header-mobile",
+      "preventHorizontalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+
+  "drawer": {
+    "children": [
+      "logo#mobile",
+      "login",
+      "vtex.menu@2.x:menu#categoria-mobile"
+    ]
+  },
+
+  "flex-layout.row#2-drawer": {
+    "children": [
+      "logo#mobile"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventHorizontalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#categoria",
+      "menu-item#aplicacao",
+      "menu-item#lancamentos",
+      "menu-item#promocoes"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+
+  "logo#mobile": {
+    "props": {
+      "title": "Loja Shure",
+      "href": "/",
+      "url": "/arquivos/shure_branding_clean.png",
+      "width": "140"
+    }
+  },
+
+  "flex-layout.row#5-desktop": {
+    "props": {
+      "blockClass": "main-header-menu",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.col#categoria-menu"
+    ]
+  },
+
+  "login": {
+    "props": {
+      "optionsTitle": "Conta",
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "senha",
+      "showPasswordVerificationIntoTooltip": true,
+      //"hideIconLabel":false,
+      "iconLabel": "Login"
+    }
+  },
+
+  "search-bar": {
+    "props": {
+      "placeholder": "O que você procura?",
+      "search-and-clear-buttons": "search-and-clear-buttons"
+    }
+  }
+  
+}

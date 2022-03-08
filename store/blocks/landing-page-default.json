@@ -1,0 +1,691 @@
+{
+  "store.custom#landing-page-default": {
+    "blocks": [
+      "flex-layout.row#landing-banner",
+      "flex-layout.row#landing-one",
+      "flex-layout.row#landing-two",
+      "flex-layout.row#landing-tree",
+      "flex-layout.row#landing-four",
+      "flex-layout.row#landing-five",
+      "flex-layout.row#landing-six",
+      "flex-layout.row#landing-seven",
+      "flex-layout.row#landing-eight"
+    ]
+  },
+
+  "flex-layout.row#landing-banner": {
+    "children": [
+      "flex-layout.col#landing-banner-left",
+      "flex-layout.col#landing-banner-right"
+    ],
+    "props": {
+      "blockClass": "landing-banner"
+    }
+  },
+  "flex-layout.col#landing-banner-left": {
+    "children": [
+      "rich-text#landing-banner-title",
+      "rich-text#landing-banner-text"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#landing-banner-right": {
+    "children": [
+      "image#landing-banner"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#landing-banner": {
+    "props": {
+      "src": "https://shuremx.vteximg.com.br/arquivos/shure_logo_s.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": ""
+    }
+  },
+  "rich-text#landing-banner-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "# **CONSEJOS** PARA COMPRAR TU **SHURE ORIGINAL**",
+      "blockClass": "landing-title"
+    }
+  },
+  "rich-text#landing-banner-text": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Comprar un Shure original tiene numerosas ventajas. Garantiza la calidad de Tu equipo, ayuda a las empresas locales y te brinda todos los beneficios del soporte exclusivo, además del audio Shure que mereces.",
+      "blockClass": "landing-paragraph"
+    }
+  },
+
+
+  "flex-layout.row#landing-one": {
+    "children": [
+      "flex-layout.col#landing-one"
+    ],
+    "props": {
+      "blockClass": "landing-one"
+    }
+  },
+  "flex-layout.col#landing-one": {
+    "children": [
+      "image#landing-one",
+      "rich-text#landing-one-title",
+      "flex-layout.row#landing-one-four"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#landing-one": {
+    "props": {
+      "src": "https://shuremx.vteximg.com.br/arquivos/1553630278963_logo.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": ""
+    }
+  },
+  "rich-text#landing-one-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "### Somos una empresa global que ofrece experiencias de audio extraordinarias para todos los entornos, tamaños y desafíos.",
+      "blockClass": "landing-title"
+    }
+  },
+  "flex-layout.row#landing-one-four": {
+    "children": [
+      "flex-layout.col#landing-one-one",
+      "flex-layout.col#landing-one-two",
+      "flex-layout.col#landing-one-tree",
+      "flex-layout.col#landing-one-four"
+    ],
+    "props": {
+      "blockClass": "landing-one-four"
+    }
+  },
+  "flex-layout.col#landing-one-one": {
+    "children": [
+      "image#landing-one-one",
+      "rich-text#landing-one-one-title"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#landing-one-two": {
+    "children": [
+      "image#landing-one-two",
+      "rich-text#landing-one-two-title"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#landing-one-tree": {
+    "children": [
+      "image#landing-one-tree",
+      "rich-text#landing-one-tree-title"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#landing-one-four": {
+    "children": [
+      "image#landing-one-four",
+      "rich-text#landing-one-four-title"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#landing-one-one": {
+    "props": {
+      "src": "https://shuremx.vteximg.com.br/arquivos/96_ANOS.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": ""
+    }
+  },
+  "image#landing-one-two": {
+    "props": {
+      "src": "https://shuremx.vteximg.com.br/arquivos/globo.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": ""
+    }
+  },
+  "image#landing-one-tree": {
+    "props": {
+      "src": "https://shuremx.vteximg.com.br/arquivos/garantia.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": ""
+    }
+  },
+  "image#landing-one-four": {
+    "props": {
+      "src": "https://shuremx.vteximg.com.br/arquivos/suporte.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": ""
+    }
+  },
+  "rich-text#landing-one-one-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "### DE EXPERIENCIA EN AUDIO",
+      "blockClass": "landing-title"
+    }
+  },
+  "rich-text#landing-one-two-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "### PRESENCIA GLOBAL",
+      "blockClass": "landing-title"
+    }
+  },
+  "rich-text#landing-one-tree-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "### 2 AÑOS DE GARANTÍA",
+      "blockClass": "landing-title"
+    }
+  },
+  "rich-text#landing-one-four-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "### SOPORTE EXCLUSIVO",
+      "blockClass": "landing-title"
+    }
+  },
+
+
+  "flex-layout.row#landing-two": {
+    "children": [
+      "flex-layout.col#landing-two-left",
+      "flex-layout.col#landing-two-right"
+    ],
+    "props": {
+      "blockClass": "landing-two"
+    }
+  },
+  "flex-layout.col#landing-two-left": {
+    "children": [
+      "iframe#landing-two"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#landing-two-right": {
+    "children": [
+      "rich-text#landing-two-title"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": false,
+      "verticalAlign": "middle"
+    }
+  },
+  "image#landing-two": {
+    "props": {
+      "src": "https://shuremx.vteximg.com.br/arquivos/1553630278963_logo.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": ""
+    }
+  },
+  "iframe#landing-two": {
+    "props": {
+      "src": "https://www.youtube.com/embed/pKPr9Nrd6nQ",
+      "width": "500",
+      "height": "333"
+    }
+  },
+  "rich-text#landing-two-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## Conoce el departamento de **calidad de Shure**",
+      "blockClass": "landing-title"
+    }
+  },
+
+
+  "flex-layout.row#landing-tree": {
+    "children": [
+      "flex-layout.col#landing-tree-left",
+      "flex-layout.col#landing-tree-right"
+    ],
+    "props": {
+      "blockClass": "landing-tree"
+    }
+  },
+  "flex-layout.col#landing-tree-left": {
+    "children": [
+      "rich-text#landing-tree-step",
+      "rich-text#landing-tree-title",
+      "rich-text#landing-button"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#landing-tree-right": {
+    "children": [
+      "image#landing-tree"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "right",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#landing-tree": {
+    "props": {
+      "src": "https://shuremx.vteximg.com.br/arquivos/lojas_autorizadas.png",
+      "maxHeight": "",
+      "maxWidth": "360px",
+      "blockClass": "image-landing"
+    }
+  },
+  "rich-text#landing-tree-step": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## 01.",
+      "blockClass": "landing-step"
+    }
+  },
+  "rich-text#landing-tree-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## Compra en las tienda autorizadas Shure de Latinoamérica",
+      "blockClass": "landing-title"
+    }
+  },
+  "rich-text#landing-button": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver tiendas autorizadas](https://www.shure.com/es-LATAM/buscador_distribuidores)",
+      "blockClass": "button-landing"
+    }
+  },
+
+
+  "flex-layout.row#landing-four": {
+    "children": [
+      "flex-layout.col#landing-four-left",
+      "flex-layout.col#landing-four-right"
+    ],
+    "props": {
+      "blockClass": "landing-four"
+    }
+  },
+  "flex-layout.col#landing-four-left": {
+    "children": [
+      "image#landing-four"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#landing-four-right": {
+    "children": [
+      "rich-text#landing-four-step",
+      "rich-text#landing-four-title",
+      "rich-text#landing-four-text"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#landing-four": {
+    "props": {
+      "src": "https://shuremx.vteximg.com.br/arquivos/fABRICAS__min.png",
+      "maxHeight": "",
+      "maxWidth": "360px",
+      "blockClass": "image-landing"
+    }
+  },
+  "rich-text#landing-four-step": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## 02.",
+      "blockClass": "landing-step"
+    }
+  },
+  "rich-text#landing-four-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## Shure tiene Fábricas en China y en México",
+      "blockClass": "landing-title"
+    }
+  },
+  "rich-text#landing-four-text": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Todas las fábricas se adhieren a los mismos estándares de calidad y confiabilidad, todas las instalaciones de fabricación de Shure cuentan con la certificación ISO (Organización Internacional de Estándares) anualmente.\n \n Un estándar de calidad de Shure es un estándar de calidad de Shure. No importa dónde se instale el producto Shure.",
+      "blockClass": "landing-paragraph"
+    }
+  },
+
+
+  "flex-layout.row#landing-five": {
+    "children": [
+      "flex-layout.col#landing-five-left",
+      "flex-layout.col#landing-five-right"
+    ],
+    "props": {
+      "blockClass": "landing-five"
+    }
+  },
+  "flex-layout.col#landing-five-left": {
+    "children": [
+      "rich-text#landing-five-step",
+      "rich-text#landing-five-title",
+      "rich-text#landing-five-text"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#landing-five-right": {
+    "children": [
+      "image#landing-five"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "right",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#landing-five": {
+    "props": {
+      "src": "https://shuremx.vteximg.com.br/arquivos/selo_original.png",
+      "maxHeight": "",
+      "maxWidth": "360px",
+      "blockClass": "image-landing"
+    }
+  },
+  "rich-text#landing-five-step": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## 03.",
+      "blockClass": "landing-step"
+    }
+  },
+  "rich-text#landing-five-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## Consulta el sello del órgano local de homologación de tu equipo inalámbrico",
+      "blockClass": "landing-title"
+    }
+  },
+  "rich-text#landing-five-text": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Si compras un sistema inalámbrico Shure, asegúrate de que venga con el sello del órgano local de equipos inalámbricos en el empaque.",
+      "blockClass": "landing-paragraph"
+    }
+  },
+  "rich-text#landing-button-empaque": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver empaques](https://dal.shure.com/c/zunvchxk)",
+      "blockClass": "button-landing"
+    }
+  },
+
+
+  "flex-layout.row#landing-six": {
+    "children": [
+      "flex-layout.col#landing-six-left",
+      "flex-layout.col#landing-six-right"
+    ],
+    "props": {
+      "blockClass": "landing-six"
+    }
+  },
+  "flex-layout.col#landing-six-left": {
+    "children": [
+      "image#landing-six"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#landing-six-right": {
+    "children": [
+      "rich-text#landing-six-step",
+      "rich-text#landing-six-title",
+      "rich-text#landing-six-text"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#landing-six": {
+    "props": {
+      "src": "https://shuremx.vteximg.com.br/arquivos/exclamacao.png",
+      "maxHeight": "",
+      "maxWidth": "360px",
+      "blockClass": "image-landing"
+    }
+  },
+  "rich-text#landing-six-step": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## 04.",
+      "blockClass": "landing-step"
+    }
+  },
+  "rich-text#landing-six-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## La referencia de precio de un Shure Original son los valores practicados por nuestros distribuidores autorizados.",
+      "blockClass": "landing-title"
+    }
+  },
+  "rich-text#landing-six-text": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "En caso de dudas, consulta siempre con una tienda autorizada Shure.",
+      "blockClass": "landing-paragraph"
+    }
+  },
+
+
+  "flex-layout.row#landing-seven": {
+    "children": [
+      "flex-layout.col#landing-seven-left",
+      "flex-layout.col#landing-seven-right"
+    ],
+    "props": {
+      "blockClass": "landing-five"
+    }
+  },
+  "flex-layout.col#landing-seven-left": {
+    "children": [
+      "rich-text#landing-seven-step",
+      "rich-text#landing-seven-title",
+      "rich-text#landing-seven-text",
+      "rich-text#landing-button-empaque"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#landing-seven-right": {
+    "children": [
+      "image#landing-seven"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "right",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#landing-seven": {
+    "props": {
+      "src": "https://shuremx.vteximg.com.br/arquivos/EMBALAGEM_SHURE-min.png",
+      "maxHeight": "",
+      "maxWidth": "360px",
+      "blockClass": "image-landing"
+    }
+  },
+  "rich-text#landing-seven-step": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## 05.",
+      "blockClass": "landing-step"
+    }
+  },
+  "rich-text#landing-seven-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## Estar atento al empaque del producto.",
+      "blockClass": "landing-title"
+    }
+  },
+  "rich-text#landing-seven-text": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Te mostramos como lucen nuestros empaques originales.",
+      "blockClass": "landing-paragraph"
+    }
+  },
+
+
+  "flex-layout.row#landing-eight": {
+    "children": [
+      "flex-layout.col#landing-eight-left",
+      "flex-layout.col#landing-eight-right"
+    ],
+    "props": {
+      "blockClass": "landing-six"
+    }
+  },
+  "flex-layout.col#landing-eight-left": {
+    "children": [
+      "image#landing-eight"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#landing-eight-right": {
+    "children": [
+      "rich-text#landing-eight-step",
+      "rich-text#landing-eight-title",
+      "rich-text#landing-eight-text",
+      "rich-text#landing-button-distributors"
+    ],
+    "props": {
+      "blockClass": "landingColumn",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#landing-eight": {
+    "props": {
+      "src": "https://shuremx.vteximg.com.br/arquivos/shure.png",
+      "maxHeight": "",
+      "maxWidth": "360px",
+      "blockClass": "image-landing"
+    }
+  },
+  "rich-text#landing-eight-step": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## 06.",
+      "blockClass": "landing-step"
+    }
+  },
+  "rich-text#landing-eight-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## Para más informaciones sobre tu Shure",
+      "blockClass": "landing-title"
+    }
+  },
+  "rich-text#landing-eight-text": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Entra en contacto con el distribuidor de Shure en tu país",
+      "blockClass": "landing-paragraph"
+    }
+  },
+  "rich-text#landing-button-distributors": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Distribuidores Shure](https://www.shure.com/en-US/about-us/distributors)",
+      "blockClass": "button-landing"
+    }
+  }
+
+}

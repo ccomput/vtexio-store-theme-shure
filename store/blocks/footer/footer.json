@@ -1,0 +1,289 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#one",
+      "vtex.menu@2.x:menu#Shure",
+      "vtex.menu@2.x:menu#Products",
+      "vtex.menu@2.x:menu#Soporte",
+      "vtex.menu@2.x:menu#shure-shop"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  },
+
+  "flex-layout.col#one": {
+    "children": [
+      "logo#desktop-footer",
+      "social-networks",
+      "rich-text#footer"
+    ],
+    "props": {
+      "blockClass": "one",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  },
+
+  "logo#desktop-footer": {
+    "props": {
+      "title": "Loja Shure",
+      "href": "/",
+      "url": "/arquivos/shure_branding_clean.png",
+      "width": "180"
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/ShureBR"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/channel/UCCaWz5ORe315LXUC5IgLi6g"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "flex-layout.col#endereco",
+      "flex-layout.col#payments",
+      "flex-layout.col#by"
+    ],
+    "props": {
+      "blockClass": "footer-two",
+      "paddingTop": 6,
+      "paddingBottom": 10
+    }
+  },
+  "flex-layout.col#endereco": {
+    "children": [
+      "rich-text#endereco"
+    ]
+  },
+  "rich-text#endereco": {
+    "props": {
+      "text": "A L C M Ltda é responsável pela venda e entrega de produtos Shure. CNPJ: 04.340.334/0001-65. Endereço: R. Almirante Gonçalves, 1400 - Rebouças - Curitiba - PR - CEP 80230-060. Telefone: 41 3019 6565",
+      "blockClass": "endereco"
+    }
+  },
+  "flex-layout.col#payments": {
+    "children": [
+      "flex-layout.row#payments"
+    ]
+  },
+  "flex-layout.row#payments": {
+    "props": {
+      "paddingTop": 4
+    },
+    "children": [
+      "image#visa",
+      "image#mastercard",
+      "image#amex",
+      "image#pix",
+      "image#boleto"
+    ]
+  },
+
+  "flex-layout.col#by": {
+    "children": [
+      "flex-layout.row#by"
+    ]
+  },
+  "flex-layout.row#by": {
+    "props": {
+      "paddingTop": 4
+    },
+    "children": [
+      "rich-text#by",
+      "image#r3d",
+      "image#vtex"
+    ]
+  },
+  "image#r3d": {
+    "props": {
+      "src": "assets/images/r3d.png",
+      "width": "57px",
+      "height": "30px"
+    }
+  },
+  "image#vtex": {
+    "props": {
+      "src": "https://extensions.vtexassets.com/assets/vtex/assets-builder/extensions.appstoretheme/1.3.1/vtex-logo___c4938a1bf57b4c458ec23411cb9bcafc.svg",
+      "width": "114px",
+      "height": "30px"
+    }
+  },
+  "rich-text#by": {
+    "props": {
+      "text": "",
+      "blockClass": "by"
+    }
+  },
+
+  "image#visa": {
+    "props": {
+      "src": "assets/images/visa.png",
+      "width": "92px",
+      "height": "30px"
+    }
+  },
+  "image#mastercard": {
+    "props": {
+      "src": "assets/images/mastercard.png",
+      "width": "48px",
+      "height": "30px"
+    }
+  },
+  "image#amex": {
+    "props": {
+      "src": "assets/images/amex.png",
+      "width": "30px",
+      "height": "30px"
+    }
+  },
+  "image#pix": {
+    "props": {
+      "src": "assets/images/pix.png",
+      "width": "84px",
+      "height": "30px"
+    }
+  },
+  "image#boleto": {
+    "props": {
+      "src": "assets/images/boleto.png",
+      "width": "53px",
+      "height": "30px"
+    }
+  },
+
+  "image#mercado-pago": {
+    "props": {
+      "src": "assets/images/mercado-pago.png",
+      "width": "114px",
+      "height": "30px"
+    }
+  },
+  "image#paypal": {
+    "props": {
+      "src": "assets/images/paypal.png",
+      "width": "124px",
+      "height": "30px"
+    }
+  },
+  "image#paypal-plus": {
+    "props": {
+      "src": "assets/images/paypal-plus-logo.png",
+      "width": "80px",
+      "height": "30px"
+    }
+  },
+
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+    }
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "©2022 Shure Incorporated",
+      "blockClass": "footer"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "props": {
+      "blockClass": "footer-mobile"
+    },
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+
+  
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "blockClass": "footer-mobile",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": [
+      "flex-layout.col#one",
+      "vtex.menu@2.x:menu#Shure",
+      "vtex.menu@2.x:menu#Products",
+      "vtex.menu@2.x:menu#Soporte",
+      "vtex.menu@2.x:menu#shure-shop"
+    ]
+  },
+
+  "flex-layout.row#2-footer-mobile": {
+    "children": [
+      "flex-layout.col#endereco",
+      "flex-layout.col#footer-1-mobile"
+    ],
+    "props": {
+      "blockClass": "footer-two",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "flex-layout.row#payments-mobile",
+      "flex-layout.row#by"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+
+  "flex-layout.row#payments-mobile": {
+    "props": {
+      "blockClass": "payment-methods-mobile",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": [
+      "image#pago-mobile"
+    ]
+  },
+  "image#pago-mobile": {
+    "props": {
+      "src": "assets/images/pagamento-mobile.png"
+    }
+  },
+
+   "rich-text#footer-mobile": {
+    "props": {
+      "text": "© 2022 Shure Incorporated",
+      "blockClass": "footer"
+    }
+  }
+}

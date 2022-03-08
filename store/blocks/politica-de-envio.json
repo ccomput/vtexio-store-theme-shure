@@ -1,0 +1,40 @@
+{
+  "store.custom#politica-de-envio": {
+    "blocks": [
+      "flex-layout.row#politica-de-envio"
+    ]
+  },
+
+  "flex-layout.row#politica-de-envio": {
+    "children": [
+      "flex-layout.col#text-politica-de-envio"
+    ]
+  },
+
+  "flex-layout.col#text-politica-de-envio": {
+    "children": [
+      "rich-text#title-politica-de-envio",
+      "rich-text#politica-de-envio"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-politica-de-envio": {
+    "props": {
+      "text":
+      "# POLÍTICA DE ENVÍO",
+      "blockClass": "title"
+    }
+  },
+
+  "rich-text#politica-de-envio": {
+    "props": {
+      "text": "La misión de Equipos y Cintas, S.A. de C.V. es asegurar de que su envío llegue de forma rápida, cuidadosa y correcta. Nos damos cuenta de que el pedido en línea de equipos de audio profesional, puede ser una experiencia inquietante. \n ¡Estamos aquí para brindarte seguridad y tranquilidad para hacer que tu transacción sea \n agradable y segura! \n Como especialistas, queremos asegurarnos de que todo te llegue como debe ser, siempre. \n **Costos y tiempos de envío:** \n Gratis Estándar, Compra mínima: Mayor a $2,000 mx, Tiempo de entrega: 3-6 días Hábiles: Tarifa: Gratis \n Estándar, Compra mínima: Menor a $2,000 mx, Tiempo de entrega: 3-6 días Hábiles: Tarifa: $100 mx a todo el país. \n **Envíos seguros y eficaces:** \n Al momento de confirmar su pedido, nos pondremos en contacto con usted para darle detalles de este y poder confirmar todos tus datos. \n Todos los equipos se someten a rigurosos procedimientos de empaque para garantizar la calidad y la protección. Póngase en contacto al correo infoshuremx@eyc.mx para cualquier solicitud especial. \n Apreciamos mucho su paciencia y estamos trabajando arduamente para cumplir con todas las solicitudes lo más rápido posible, siempre estamos trabajando para mejorar nuestros procesos. \n La fecha estimada de arribo de su producto depende de la paquetería y tiempos de operación. \n Equipos y Cintas, SA de CV ofrece el mejor valor por su compra. Todos los pedidos realizados en Equipos y Cintas, SA de CV e pueden enviar gratis de acuerdo con una promoción vigente que tiene que estar comunicada en la página. Los pedidos se envían en un promedio de 32 horas desde el momento en que se confirma el pedido por correo electrónico en función de los tiempos de tránsito con el servicio de mensajería. \n Equipos y Cintas, SA de CV utiliza principalmente FEDEX como servicio de mensajería. \n **Devoluciones:** \n Si elige devolver su pedido, deduciremos el costo de envío de cualquier reembolso. Vea nuestra política de devolución completa. \n **Seguro incluido:** \n Todos los paquetes están totalmente asegurados sin cargo adicional como protección para el caso de pérdida o daños que pudiera sufrir durante el envío. No todos los artículos están asegurados o pueden reemplazarse en caso de robo. Póngase en contacto con nosotros al realizar su pedido para obtener más información. \n Su equipo se enviará utilizando materiales de embalaje estándar de la industria, en todo intento de asegurarse de que llegue en condiciones listas para ser usados. Le notificaremos antes de enviar su producto si es necesario tomar medidas adicionales en el proceso de empaque. \n ¡No dude en contactarnos si tiene alguna pregunta! \n En caso de que haya un problema de entrega con su pedido (demorado, perdido, dañado o robado), comuníquese con nuestro Equipo de Servicio al Cliente infoshuremx@eyc.mx, o directamente al (55) 55 43 47 63 para obtener ayuda. Entendemos que estas situaciones requieren apoyo. \n ¡Queremos ser tan útiles y orientados a la solución como sea posible! \n **Tiempo de entrega:** \n Nuestros servicios de envío estándar, FEDEX se entregan en cualquier parte de México. \n El envío gratuito no se puede combinar con otras ofertas o descuentos en dado caso de existir. \n **OPCIONES DE ENVÍO ADICIONALES** \n Si su pedido no califica para envío gratis, tiene una tarifa preferencial para que pueda disfrutar su producto. ¡Nos importa! Esto es algo que nos tomamos muy en serio, porque es lo que te mereces. Nuestros equipos de envío, ventas y servicio al cliente siempre se esfuerzan por crear la mejor experiencia para usted. \n Si tiene alguna pregunta, comentario o inquietud, queremos saberlo. No dude en comunicarse en infoshuremx@eyc.mx, o llámenos directamente al (55) 55 43 47 63.",
+      "blockClass": "text"
+    }
+  }
+
+}

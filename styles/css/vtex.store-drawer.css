@@ -1,0 +1,23 @@
+.menuIcon {
+    color: #ffffff;
+}
+.openIconContainer {
+    border-radius: 6px;
+    border: 1px #b2ff33 solid;
+    padding: 0.5rem;
+}
+.childrenContainer {
+    flex-direction: column;
+}
+.drawer {
+    background-color: #000000;
+}
+.closeIcon {
+    color: #ffffff;
+}
+.closeIconContainer {
+    justify-content: right;
+}
+.closeIconButton {
+    padding: .25rem .75rem;
+}

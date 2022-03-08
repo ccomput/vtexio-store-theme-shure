@@ -1,0 +1,346 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "condition-layout.product#availability",
+      "flex-layout.row#description",
+      "flex-layout.row#specifications-title",
+      "product-specification-group#table",
+      "shelf.relatedProducts",
+      //"shelf.relatedProducts#shure",
+      "product-reviews",
+      "product-questions-and-answers"
+    ]
+  },
+  "product-description": {
+    "props": {
+      "collapseContent": false,
+      "customCollapse": false
+    }
+  },
+  "flex-layout.row#specifications-title": {
+    "children": ["rich-text#specifications"]
+  },
+  "rich-text#specifications": {
+    "props": {
+      "text": "##### Especificações"
+    }
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": ["breadcrumb"]
+  },
+  "flex-layout.row#description": {
+    "props": {
+      "blockClass": "product-description",
+      "marginBottom": 7,
+      "collapseContent": "false"
+    },
+    "children": ["product-description"]
+  },
+
+  "condition-layout.product#availability": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.row#product-main",
+      "Else": "flex-layout.row#product-availability"
+    }
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+  },
+
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "flex-layout.row#product-image",
+      "product-bookmark",
+      "product-specification-badges"
+    ]
+  },
+
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+
+  "flex-layout.col#stack": {
+    "children": ["stack-layout"],
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    }
+  },
+  "flex-layout.row#product-image": {
+    "children": ["product-images"]
+  },
+  "product-images": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "16:9"
+      },
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "product-rating-summary",
+      "product-separator",
+      //"flex-layout.row#list-price-savings",
+      "flex-layout.row#selos",
+      "flex-layout.row#selling-price",
+      "product-installments",
+      "product-separator",
+      "product-identifier.product",
+      "sku-selector",
+      "rich-text#about-product",
+      "flex-layout.row#meta-tag-description",
+      "rich-text#about-product-link",
+      "product-separator",
+      "product-quantity",
+      "product-assembly-options",
+      "product-gifts",
+      "flex-layout.row#buy-button",
+      "flex-layout.row#buy-corp-button",
+      "availability-subscriber",
+      "shipping-simulator"
+      //"share#default"
+    ]
+  },
+
+  "image#selo-one": {
+    "props": {
+      "src": "/arquivos/12X_FRETE_GRATIS.png",
+      "maxHeight": "50px",
+      "maxWidth": "",
+      "blockClass": "selo-one",
+      "link": {
+        "url": "#"
+      }
+    }
+  },
+  "image#selo-two": {
+    "props": {
+      "src": "/arquivos/12X.png",
+      "maxHeight": "50px",
+      "maxWidth": "",
+      "blockClass": "selo-two"
+    }
+  },
+  "flex-layout.row#selos": {
+    "children": [
+      "flex-layout.col#selos-one",
+      "flex-layout.col#selos-two"
+    ],
+    "props": {
+      "blockClass": "selos"
+    }
+  },
+  "flex-layout.col#selos-one": {
+    "children": [
+      "image#selo-one",
+      "rich-text#selo-one"
+    ],
+    "props": {
+      "blockClass": "selos-one",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#selos-two": {
+    "children": [
+      "image#selo-two",
+      "rich-text#selo-two"
+    ],
+    "props": {
+      "blockClass": "selos-two",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#selo-one": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Shure con Certificación ISO (International Standards Organization). Un estándar de calidad Shure es un estándar de calidad Shure.",
+      "textColor": "c-on-base",
+      "font": "t-body",
+      "blockClass": "selo-message"
+    }
+  },
+  "rich-text#selo-two": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Compra en Shure Shop MX con 2 AÑOS DE GARANTÍA. Estamos comprometidos con la calidad y respaldamos todos nuestros productos.",
+      "textColor": "c-on-base",
+      "font": "t-body",
+      "blockClass": "selo-message"
+    }
+  },
+
+  "rich-text#about-product": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "#### Sobre esse item:",
+      "blockClass": "options-product"
+    }
+  },
+  "flex-layout.row#meta-tag-description": {
+    "props": {
+      "blockClass": "meta-description-product"
+    },
+    "children": ["custom-shelf"]
+  },
+  "rich-text#about-product-link": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[ver + informações](#product-description)",
+      "blockClass": "options-product-link"
+    }
+  },
+
+  "flex-layout.row#product-name": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": ["vtex.store-components:product-name"]
+  },
+
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true
+    }
+  },
+
+  "flex-layout.row#buy-button": {
+    "props": {
+      "blockClass": "button-buy",
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": ["add-to-cart-button"]
+    //"children": ["buy-button#product"]
+  },
+
+  "flex-layout.row#buy-corp-button": {
+    "props": {
+      "blockClass": "button-corp",
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": ["flex-layout.col#buy-corp"]
+  },
+
+  "flex-layout.col#buy-corp": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": ["link.product#buy-corp","rich-text#buy-corp"]
+  },
+
+  "link.product#buy-corp": {
+    "props": {
+      "href": "https://api.whatsapp.com/send/?phone=554195227592&text=Oi%21+Quero+mais+informaci%C3%B3n+sobre+Shure&app_absent=0",
+      "label": "Compras Corporativas",
+      "target": "_blank",
+      "displayMode": "button",
+      "blockClass": "button-corp"
+    }
+  },
+  "rich-text#buy-corp": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Entre em contato para fazer uma cotação",
+      "textColor": "c-on-base",
+      "font": "t-body",
+      "blockClass": "buy-corp-message"
+    }
+  },
+
+
+  "flex-layout.row#product-availability": {
+    "props": {
+      "colGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7
+    },
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col-availability"
+    ]
+  },
+  "flex-layout.col#right-col-availability": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "info-availability"
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "product-identifier.product",
+      "sku-selector",
+      "flex-layout.row#availability"
+    ]
+  },
+  "flex-layout.row#availability": {
+    "props": {
+      "blockClass": "message-availability"
+    },
+    "children": ["availability-subscriber"]
+  },
+
+  "shelf.relatedProducts": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+        "recommendation": "similars",
+        "productList": {
+            "titleText": "Produtos Similares",
+            "itemsPerPage": 4
+        }
+    }
+  },
+
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  }
+}

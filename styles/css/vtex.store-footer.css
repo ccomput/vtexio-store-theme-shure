@@ -1,0 +1,26 @@
+.flexRowContent--menu-row {
+  background-color: #000000;
+}
+
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+.socialNetworksContainer {
+  padding: 0 20px;
+}
+
+@media only screen and (max-width: 640px) {
+  .socialNetworksContainer {
+    justify-content: center;
+    padding: 2rem 0;
+  }
+}

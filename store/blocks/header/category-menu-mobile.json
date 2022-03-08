@@ -1,0 +1,132 @@
+{
+  "vtex.menu@2.x:menu#categoria-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-sidebar"
+    },
+    "children": [
+      "menu-item#categoria-mobile",
+      "menu-item#aplicacao-mobile"
+    ]
+  },
+
+  "menu-item#categoria-mobile": {
+    "props": {
+      "id": "menu-item-categoria-mobile",
+      "blockClass": "menu-sidebar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Comprar por categoria",
+        "text": "Comprar por categoria"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#categoria-mobile"]
+  },
+  "vtex.menu@2.x:submenu.accordion#categoria-mobile": {
+    "children": ["vtex.menu@2.x:menu#categoria-mobile-accordion"]
+  },
+  "vtex.menu@2.x:menu#categoria-mobile-accordion": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "sidebar"
+    },
+    "children": [
+      "menu-item#categoria-microfones-com-fio",
+      "menu-item#categoria-microfones-sem-fio",
+      "menu-item#categoria-microfones-digitais",
+      "menu-item#categoria-fones-in-ear-sem-fio",
+      "menu-item#categoria-fones-in-ear-com-fio",
+      "menu-item#categoria-headphones",
+      "menu-item#categoria-acessorios",
+      "menu-item#categoria-roupas-e-acessorios"
+    ]
+  },
+
+  "menu-item#aplicacao-mobile": {
+    "props": {
+      "id": "menu-item-aplicacao-mobile",
+      "blockClass": "menu-sidebar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Compre por Aplicação",
+        "text": "Compre por Aplicação"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#aplicacao-mobile"]
+  },
+  "vtex.menu@2.x:submenu.accordion#aplicacao-mobile": {
+    "children": ["vtex.menu@2.x:menu#aplicacao-mobile-accordion"]
+  },
+  "vtex.menu@2.x:menu#aplicacao-mobile-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#aplicacao-podcasters",
+      "menu-item#aplicacao-radio",
+      "menu-item#aplicacao-musicos"
+    ]
+  },
+
+  "menu-item#lancamento-mobile": {
+    "props": {
+      "id": "menu-item-lancamento-mobile",
+      "blockClass": "menu-sidebar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Lançamentos",
+        "text": "Lançamentos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#lancamento-mobile"]
+  },
+  "vtex.menu@2.x:submenu.accordion#lancamento-mobile": {
+    "children": ["vtex.menu@2.x:menu#lancamento-mobile-accordion"]
+  },
+  "vtex.menu@2.x:menu#lancamento-mobile-accordion": {
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#promocoes-mobile": {
+    "props": {
+      "id": "menu-item-promocoes-mobile",
+      "blockClass": "menu-sidebar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Promoções",
+        "text": "Promoções"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#promocoes-mobile"]
+  },
+  "vtex.menu@2.x:submenu.accordion#promocoes-mobile": {
+    "children": ["vtex.menu@2.x:menu#promocoes-mobile-accordion"]
+  },
+  "vtex.menu@2.x:menu#promocoes-mobile-accordion": {
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

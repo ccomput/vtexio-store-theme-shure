@@ -1,0 +1,141 @@
+{
+    "flex-layout.row#aplicaciones-fluid": {
+      "children": [
+        "flex-layout.col#podcasters",
+        "flex-layout.col#musicos",
+        "flex-layout.col#jornalistas",
+        "flex-layout.col#youtubers",
+        "flex-layout.col#gamers"
+      ],
+      "props": {
+        "fullWidth": false,
+        "blockClass": "fluid-app"
+      }
+    },
+
+    "flex-layout.col#podcasters": {
+      "props": {
+        "id": "podcasters",
+        "blockClass": "podcasters",
+        "horizontalAlign": "center"
+      },
+      "children": [
+        "rich-text#podcasters-title",
+        "rich-text#podcasters-subtitle",
+        "vtex.menu@2.x:menu#Podcasters"
+      ]
+    },
+    "rich-text#podcasters-title": {
+      "props": {
+        "text": "## Podcasters",
+        "blockClass": "aplicacionesTitle"
+      }
+    },
+    "rich-text#podcasters-subtitle": {
+      "props": {
+        "text": "Crie, capture, transmita, repita.",
+        "blockClass": "aplicacionesSubTitle"
+      }
+    },
+
+    "flex-layout.col#jornalistas": {
+      "props": {
+        "id": "jornalistas",
+        "blockClass": "jornalistas",
+        "horizontalAlign": "center"
+      },
+      "children": [
+        "rich-text#jornalistas-title",
+        "rich-text#jornalistas-subtitle",
+        "vtex.menu@2.x:menu#Jonalistas"
+      ]
+    },
+    "rich-text#jornalistas-title": {
+      "props": {
+        "text": "## Jornalistas",
+        "blockClass": "aplicacionesTitle"
+      }
+    },
+    "rich-text#jornalistas-subtitle": {
+      "props": {
+        "text": "Som iOS profissional. Essa é uma grande novidade.",
+        "blockClass": "aplicacionesSubTitle"
+      }
+    },
+
+    "flex-layout.col#youtubers": {
+      "props": {
+        "id": "youtubers",
+        "blockClass": "youtubers",
+        "horizontalAlign": "center"
+      },
+      "children": [
+        "rich-text#youtubers-title",
+        "rich-text#youtubers-subtitle",
+        "vtex.menu@2.x:menu#Youtubers"
+      ]
+    },
+    "rich-text#youtubers-title": {
+      "props": {
+        "text": "## Youtubers",
+        "blockClass": "aplicacionesTitle"
+      }
+    },
+    "rich-text#youtubers-subtitle": {
+      "props": {
+        "text": "Áudio profissional para vídeos.",
+        "blockClass": "aplicacionesSubTitle"
+      }
+    },
+
+    "flex-layout.col#gamers": {
+      "props": {
+        "id": "gamers",
+        "blockClass": "gamers",
+        "horizontalAlign": "center"
+      },
+      "children": [
+        "rich-text#gamers-title",
+        "rich-text#gamers-subtitle",
+        "vtex.menu@2.x:menu#Gamers"
+      ]
+    },
+    "rich-text#gamers-title": {
+      "props": {
+        "text": "## Gamers",
+        "blockClass": "aplicacionesTitle"
+      }
+    },
+    "rich-text#gamers-subtitle": {
+      "props": {
+        "text": "Áudio profissional para Gamers.",
+        "blockClass": "aplicacionesSubTitle"
+      }
+    },
+
+    "flex-layout.col#musicos": {
+      "props": {
+        "id": "musicos",
+        "blockClass": "musicos",
+        "horizontalAlign": "center"
+      },
+      "children": [
+        "rich-text#musicos-title",
+        "rich-text#musicos-subtitle",
+        "vtex.menu@2.x:menu#Podcasters"
+      ]
+    },
+    "rich-text#musicos-title": {
+      "props": {
+        "text": "## Músicos",
+        "blockClass": "aplicacionesTitle"
+      }
+    },
+    "rich-text#musicos-subtitle": {
+      "props": {
+        "text": "Porque o mundo é seu estúdio.",
+        "blockClass": "aplicacionesSubTitle"
+      }
+    }
+    
+}

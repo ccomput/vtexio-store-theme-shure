@@ -1,0 +1,104 @@
+.menuItem .submenuWrapper {
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    border-bottom: 0;
+    background-color: #ffffff;
+    border: 1px #ccc solid;
+}
+.menuItem .menuItem {
+    border-bottom: 1px #ccc solid;
+    margin: 0;
+    padding: 0.3rem 0;
+    min-width: 13.5rem;
+}
+
+.menuItem .menuItem:last-child {
+    border-bottom: 0;
+}
+.menuItem .menuItem:hover {
+    background-color: #b2ff33;
+}
+
+.styledLinkContent {
+    font-family: OstrichProper, din-2014, Arial, sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 1rem;
+}
+.styledLinkContent:hover {
+    text-decoration: underline;
+}
+
+.menuItem .menuItem .styledLinkContent {
+    font-size: 1rem;
+}
+
+.styledLinkContent--menu-title {
+    font-size: 1.4rem;
+    color: #c4c4c4;
+    text-transform: uppercase;
+}
+.styledLinkContent--menu-title:hover {
+    text-decoration: none;
+}
+
+.styledLinkContent--menu-footer {
+    font-size: 0.9rem;
+    color: #c4c4c4;
+    padding: 4px 0;
+}
+.styledLinkContent--menu-footer:hover {
+    text-decoration: none;
+    color: #b2ff33;
+}
+
+.styledLinkContent--menu-item-app {
+    color: #ffffff;
+    font-size: 1.2rem;
+    justify-content: center;
+}
+.styledLinkContent--item-contact {
+    color: rgba(255,255,255,.50);
+}
+.styledLinkContent--item-contact:hover {
+    color: rgba(255,255,255,.75);
+}
+
+.styledLinkContent--menu-main::after {
+    content: "";
+    display: inline-block;
+    margin: 0.5em;
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+.styledLinkContainer--menu-sidebar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+}
+.menuContainerNav--menu-sidebar {
+    background-color: #ffffff;
+}
+.submenuAccordion .menuContainerNav {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 96%;
+}
+.menuItem--menu-sidebar {
+    border-bottom: 1px #cccccc solid;
+}
+
+.submenuContainer .submenuContainer {
+    position: absolute;
+    margin-left: 100%;
+    margin-top: -15%;
+}
+
+@media only screen and (max-width: 640px) {
+    .menuContainerNav {
+        margin: 20px 0;
+    }
+}

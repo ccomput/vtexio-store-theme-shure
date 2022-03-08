@@ -1,0 +1,24 @@
+{
+    "flex-layout.row#banner-second": {
+      "children": [
+        "flex-layout.col#banner-second1"
+      ],
+      "props": {
+        "fullWidth": true,
+        "blockClass": "banner-second"
+      }
+    },
+
+    "flex-layout.col#banner-second1": {
+        "children": [
+          "image#banner-secondc1"
+        ]
+    },
+    "image#banner-secondc1": {
+        "props": {
+          "src": "/arquivos/loja_shure_oficial.jpg",
+          "width": "100%",
+          "height": "100%"
+        }
+    }
+}

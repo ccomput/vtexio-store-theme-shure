@@ -1,0 +1,803 @@
+{
+  "store.custom#buen-fin": {
+    "blocks": [
+      "flex-layout.row#buen-fin",
+      "flex-layout.row#countdown",
+      "flex-layout.row#text-buen-fin",
+      "flex-layout.row#title-buen-fin",
+      "flex-layout.row#buen-fin-one",
+      "flex-layout.row#buen-fin-two",
+      "flex-layout.row#buen-fin-tree"
+    ]
+  },
+
+  "flex-layout.row#buen-fin": {
+    "props": {
+      "blockClass": "banner",
+      "fullWidth": "true"
+    },
+    "children": [
+      "image#banner-buefin"
+    ]
+  },
+
+  "flex-layout.row#text-buen-fin": {
+    "props": {
+      "blockClass": "textbuenfin"
+    },
+    "children": [
+      "rich-text#text-buen-fin"
+    ]
+  },
+
+  "flex-layout.row#title-buen-fin": {
+    "props": {
+      "blockClass": "rowbuenfin"
+    },
+    "children": [
+      "rich-text#title-buen-fin"
+    ]
+  },
+
+  "flex-layout.col#product-buen-fin": {
+    "children": [
+      "rich-text#title-buen-fin"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#banner-buefin": {
+    "props": {
+      "src": "https://shuremx.vteximg.com.br/arquivos/1900x338_buen-fin.gif",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "banner"
+    }
+  },
+  "flex-layout.row#shelf-buen-fin": {
+    "props": {
+      "blockClass": "shelfBg",
+      "paddingBottom": 6
+    },
+    "children": ["list-context.product-list#buen-fin"]
+  },
+  "list-context.product-list#buen-fin": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "178",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  "rich-text#title-buen-fin": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## Los productos Buen Fin",
+      "blockClass": "title-buen-fin"
+    }
+  },
+
+  "rich-text#text-buen-fin": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "### Buen Fin Tienda Shure Oficial: Micrófonos y Audífonos originales de Shure en condiciones imperdibles.\n Ofertas válidas desde el 10 de noviembre hasta el 16 de noviembre",
+      "blockClass": "text-buen-fin"
+    }
+  },
+
+  "flex-layout.row#buen-fin-one": {
+    "children": [
+      "flex-layout.col#buen-fin-product-eight",
+      "flex-layout.col#buen-fin-product-one",
+      "flex-layout.col#buen-fin-product-nine",
+      "flex-layout.col#buen-fin-product-two"
+    ],
+    "props": {
+      "blockClass": "row-buen-fin"
+    }
+  },
+
+  "flex-layout.row#buen-fin-two": {
+    "children": [
+      "flex-layout.col#buen-fin-product-tree",
+      "flex-layout.col#buen-fin-product-four",
+      "flex-layout.col#buen-fin-product-five",
+      "flex-layout.col#buen-fin-product-six"
+    ],
+    "props": {
+      "blockClass": "row-buen-fin"
+    }
+  },
+  "flex-layout.row#buen-fin-tree": {
+    "children": [
+      "flex-layout.col#buen-fin-product-seven",
+      "flex-layout.col#buen-fin-product-ten",
+      "flex-layout.col#buen-fin-product-eleven",
+      "flex-layout.col#buen-fin-product-twelve"
+    ],
+    "props": {
+      "blockClass": "row-buen-fin"
+    }
+  },
+
+  "flex-layout.col#buen-fin-product-one": {
+    "children": [
+      "image#product-one",
+      "rich-text#title-product-one",
+      "rich-text#price-product-one",
+      "rich-text#price-sale-product-one",
+      "rich-text#button-product-one"
+    ],
+    "props": {
+      "blockClass": "productColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-product-one": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Micrófono para Podcast Shure MV7](https://www.shureshop.com.mx/microfono-para-podcast-shure-mv7/p)",
+      "blockClass": "title-product"
+    }
+  },
+  "rich-text#price-product-one": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$5,999.00",
+      "blockClass": "price-product"
+    }
+  },
+  "rich-text#price-sale-product-one": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$5,100.00",
+      "blockClass": "price-sale-product"
+    }
+  },
+  "image#product-one": {
+    "props": {
+      "src": "https://shuremx.vtexassets.com/arquivos/ids/157362-300-300?v=637505846589870000&width=300&height=300&aspect=true",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "image-product",
+      "link": "https://www.shureshop.com.mx/microfono-para-podcast-shure-mv7/p"
+    }
+  },
+  "rich-text#button-product-one": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver más](https://www.shureshop.com.mx/microfono-para-podcast-shure-mv7/p)",
+      "blockClass": "button-product"
+    }
+  },
+
+  "flex-layout.col#buen-fin-product-two": {
+    "children": [
+      "image#product-two",
+      "rich-text#title-product-two",
+      "rich-text#price-product-two",
+      "rich-text#price-sale-product-two",
+      "rich-text#button-product-two"
+    ],
+    "props": {
+      "blockClass": "productColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-product-two": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Kit de Video con Micrófono Condensador Digital Shure MV88+](/kit-de-video-con-microfono-condensador-digital-shure-mv88plus/p)",
+      "blockClass": "title-product"
+    }
+  },
+  "rich-text#price-product-two": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$6,000.00",
+      "blockClass": "price-product"
+    }
+  },
+  "rich-text#price-sale-product-two": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$5,100.00",
+      "blockClass": "price-sale-product"
+    }
+  },
+  "image#product-two": {
+    "props": {
+      "src": "https://shuremx.vtexassets.com/arquivos/ids/157331-300-300?v=637505846423970000&width=300&height=300&aspect=true",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "image-product",
+      "link": "/kit-de-video-con-microfono-condensador-digital-shure-mv88plus/p"
+    }
+  },
+  "rich-text#button-product-two": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver más](/kit-de-video-con-microfono-condensador-digital-shure-mv88plus/p)",
+      "blockClass": "button-product"
+    }
+  },
+
+  "flex-layout.col#buen-fin-product-tree": {
+    "children": [
+      "image#product-tree",
+      "rich-text#title-product-tree",
+      "rich-text#price-product-tree",
+      "rich-text#price-sale-product-tree",
+      "rich-text#button-product-tree"
+    ],
+    "props": {
+      "blockClass": "productColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-product-tree": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Micrófono Condensafor Digital para Home Office MV5C](/microfono-condensafor-digital-para-home-office-mv5c/p)",
+      "blockClass": "title-product"
+    }
+  },
+  "rich-text#price-product-tree": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$2,389.00",
+      "blockClass": "price-product"
+    }
+  },
+  "rich-text#price-sale-product-tree": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$2,031.00",
+      "blockClass": "price-sale-product"
+    }
+  },
+  "image#product-tree": {
+    "props": {
+      "src": "https://shuremx.vtexassets.com/arquivos/ids/159041-300-300?v=637593802942530000&width=300&height=300&aspect=true",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "image-product",
+      "link": "/microfono-condensafor-digital-para-home-office-mv5c/p"
+    }
+  },
+  "rich-text#button-product-tree": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver más](/microfono-condensafor-digital-para-home-office-mv5c/p)",
+      "blockClass": "button-product"
+    }
+  },
+
+  "flex-layout.col#buen-fin-product-four": {
+    "children": [
+      "image#product-four",
+      "rich-text#title-product-four",
+      "rich-text#price-product-four",
+      "rich-text#price-sale-product-four",
+      "rich-text#button-product-four"
+    ],
+    "props": {
+      "blockClass": "productColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-product-four": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Micrófono Digital Shure\n MV5](/microfono-digital-shure-mv5/p)",
+      "blockClass": "title-product"
+    }
+  },
+  "rich-text#price-product-four": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$2,389.00",
+      "blockClass": "price-product"
+    }
+  },
+  "rich-text#price-sale-product-four": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$2,031.00",
+      "blockClass": "price-sale-product"
+    }
+  },
+  "image#product-four": {
+    "props": {
+      "src": "https://shuremx.vtexassets.com/arquivos/ids/157350-300-300?v=637505846529570000&width=300&height=300&aspect=true",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "image-product",
+      "link": "/microfono-digital-shure-mv5/p"
+    }
+  },
+  "rich-text#button-product-four": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver más](/microfono-digital-shure-mv5/p)",
+      "blockClass": "button-product"
+    }
+  },
+
+  "flex-layout.col#buen-fin-product-five": {
+    "children": [
+      "image#product-five",
+      "rich-text#title-product-five",
+      "rich-text#price-product-five",
+      "rich-text#price-sale-product-five",
+      "rich-text#button-product-five"
+    ],
+    "props": {
+      "blockClass": "productColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-product-five": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Interfaz de Audio Digital Shure MVI/A-LTG](/interfaz-de-audio-digital-shure-mvi-a-ltg/p)",
+      "blockClass": "title-product"
+    }
+  },
+  "rich-text#price-product-five": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$2,389.00",
+      "blockClass": "price-product"
+    }
+  },
+  "rich-text#price-sale-product-five": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$2,031.00",
+      "blockClass": "price-sale-product"
+    }
+  },
+  "image#product-five": {
+    "props": {
+      "src": "https://shuremx.vtexassets.com/arquivos/ids/157829-300-300?v=637554122088400000&width=300&height=300&aspect=true",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "image-product",
+      "link": "/interfaz-de-audio-digital-shure-mvi-a-ltg/p"
+    }
+  },
+  "rich-text#button-product-five": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver más](/interfaz-de-audio-digital-shure-mvi-a-ltg/p)",
+      "blockClass": "button-product"
+    }
+  },
+
+  "flex-layout.col#buen-fin-product-six": {
+    "children": [
+      "image#product-six",
+      "rich-text#title-product-six",
+      "rich-text#price-product-six",
+      "rich-text#price-sale-product-six",
+      "rich-text#button-product-six"
+    ],
+    "props": {
+      "blockClass": "productColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-product-six": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Audífonos In-Ear Profesionales Shure SE215](/audifonos-in-ear-profesionales-shure-se215/p)",
+      "blockClass": "title-product"
+    }
+  },
+  "rich-text#price-product-six": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$2,390.00",
+      "blockClass": "price-product"
+    }
+  },
+  "rich-text#price-sale-product-six": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$2,032.00",
+      "blockClass": "price-sale-product"
+    }
+  },
+  "image#product-six": {
+    "props": {
+      "src": "https://shuremx.vtexassets.com/arquivos/ids/157291-300-300?v=637505846159130000&width=300&height=300&aspect=true",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "image-product",
+      "link": "/audifonos-in-ear-profesionales-shure-se215/p"
+    }
+  },
+  "rich-text#button-product-six": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver más](/audifonos-in-ear-profesionales-shure-se215/p)",
+      "blockClass": "button-product"
+    }
+  },
+
+  "flex-layout.col#buen-fin-product-seven": {
+    "children": [
+      "image#product-seven",
+      "rich-text#title-product-seven",
+      "rich-text#price-product-seven",
+      "rich-text#price-sale-product-seven",
+      "rich-text#button-product-seven"
+    ],
+    "props": {
+      "blockClass": "productColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-product-seven": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Audífonos In-Ear Profesionales SE425](/audifonos-in-ear-profesionales-se425/p)",
+      "blockClass": "title-product"
+    }
+  },
+  "rich-text#price-product-seven": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$6,492.00",
+      "blockClass": "price-product"
+    }
+  },
+  "rich-text#price-sale-product-seven": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$5,519.00",
+      "blockClass": "price-sale-product"
+    }
+  },
+  "image#product-seven": {
+    "props": {
+      "src": "https://shuremx.vtexassets.com/arquivos/ids/157289-300-300?v=637505846143500000&width=300&height=300&aspect=true",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "image-product",
+      "link": "/audifonos-in-ear-profesionales-se425/p"
+    }
+  },
+  "rich-text#button-product-seven": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver más](/audifonos-in-ear-profesionales-se425/p)",
+      "blockClass": "button-product"
+    }
+  },
+
+  "flex-layout.col#buen-fin-product-eight": {
+    "children": [
+      "image#product-eight",
+      "rich-text#title-product-eight",
+      "rich-text#price-product-eight",
+      "rich-text#price-sale-product-eight",
+      "rich-text#button-product-eight"
+    ],
+    "props": {
+      "blockClass": "productColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-product-eight": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Micrófono para Radio, TV y Grabación en Estudio Shure SM7B](/microfono-para-radio-tv-y-grabacion-en-estudio-shure-sm7b/p)",
+      "blockClass": "title-product"
+    }
+  },
+  "rich-text#price-product-eight": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$9,627.00",
+      "blockClass": "price-product"
+    }
+  },
+  "rich-text#price-sale-product-eight": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$8,183.00",
+      "blockClass": "price-sale-product"
+    }
+  },
+  "image#product-eight": {
+    "props": {
+      "src": "https://shuremx.vtexassets.com/arquivos/ids/157313-300-300?v=637505846309430000&width=300&height=300&aspect=true",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "image-product",
+      "link": "/microfono-para-radio-tv-y-grabacion-en-estudio-shure-sm7b/p"
+    }
+  },
+  "rich-text#button-product-eight": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver más](/microfono-para-radio-tv-y-grabacion-en-estudio-shure-sm7b/p)",
+      "blockClass": "button-product"
+    }
+  },
+
+  "flex-layout.col#buen-fin-product-nine": {
+    "children": [
+      "image#product-nine",
+      "rich-text#title-product-nine",
+      "rich-text#price-product-nine",
+      "rich-text#price-sale-product-nine",
+      "rich-text#button-product-nine"
+    ],
+    "props": {
+      "blockClass": "productColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-product-nine": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Paquete Podcast Shure Mv7 Con Trípode De Mesa Manfrotto](/paquete-podcast-shure-mv7-tripode-mesa-manfrotto/p)",
+      "blockClass": "title-product"
+    }
+  },
+  "rich-text#price-product-nine": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$6,490.00",
+      "blockClass": "price-product"
+    }
+  },
+  "rich-text#price-sale-product-nine": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$5,999.00",
+      "blockClass": "price-sale-product"
+    }
+  },
+  "image#product-nine": {
+    "props": {
+      "src": "https://shuremx.vtexassets.com/arquivos/ids/159378-300-300?v=637713947120470000&width=300&height=300&aspect=true",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "image-product",
+      "link": "/paquete-podcast-shure-mv7-tripode-mesa-manfrotto/p"
+    }
+  },
+  "rich-text#button-product-nine": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver más](/paquete-podcast-shure-mv7-tripode-mesa-manfrotto/p)",
+      "blockClass": "button-product"
+    }
+  },
+
+  "flex-layout.col#buen-fin-product-ten": {
+    "children": [
+      "image#product-ten",
+      "rich-text#title-product-ten",
+      "rich-text#price-product-ten",
+      "rich-text#price-sale-product-ten",
+      "rich-text#button-product-ten"
+    ],
+    "props": {
+      "blockClass": "productColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-product-ten": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Paquete Podcast Shure Mv7 Con Trípode De Mesa Manfrotto](/paquete-podcast-shure-mv7-tripode-mesa-manfrotto/p)",
+      "blockClass": "title-product"
+    }
+  },
+  "rich-text#price-product-ten": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$6,490.00",
+      "blockClass": "price-product"
+    }
+  },
+  "rich-text#price-sale-product-ten": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$5,999.00",
+      "blockClass": "price-sale-product"
+    }
+  },
+  "image#product-ten": {
+    "props": {
+      "src": "https://shuremx.vtexassets.com/arquivos/ids/159378-300-300?v=637713947120470000&width=300&height=300&aspect=true",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "image-product",
+      "link": "/paquete-podcast-shure-mv7-tripode-mesa-manfrotto/p"
+    }
+  },
+  "rich-text#button-product-ten": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver más](/paquete-podcast-shure-mv7-tripode-mesa-manfrotto/p)",
+      "blockClass": "button-product"
+    }
+  },
+
+  "flex-layout.col#buen-fin-product-eleven": {
+    "children": [
+      "image#product-eleven",
+      "rich-text#title-product-eleven",
+      "rich-text#price-product-eleven",
+      "rich-text#price-sale-product-eleven",
+      "rich-text#button-product-eleven"
+    ],
+    "props": {
+      "blockClass": "productColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-product-eleven": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Paquete Podcast Shure Mv7 Con Trípode De Mesa Manfrotto](/paquete-podcast-shure-mv7-tripode-mesa-manfrotto/p)",
+      "blockClass": "title-product"
+    }
+  },
+  "rich-text#price-product-eleven": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$6,490.00",
+      "blockClass": "price-product"
+    }
+  },
+  "rich-text#price-sale-product-eleven": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$5,999.00",
+      "blockClass": "price-sale-product"
+    }
+  },
+  "image#product-eleven": {
+    "props": {
+      "src": "https://shuremx.vtexassets.com/arquivos/ids/159378-300-300?v=637713947120470000&width=300&height=300&aspect=true",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "image-product",
+      "link": "/paquete-podcast-shure-mv7-tripode-mesa-manfrotto/p"
+    }
+  },
+  "rich-text#button-product-eleven": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver más](/paquete-podcast-shure-mv7-tripode-mesa-manfrotto/p)",
+      "blockClass": "button-product"
+    }
+  },
+
+  "flex-layout.col#buen-fin-product-twelve": {
+    "children": [
+      "image#product-twelve",
+      "rich-text#title-product-twelve",
+      "rich-text#price-product-twelve",
+      "rich-text#price-sale-product-twelve",
+      "rich-text#button-product-twelve"
+    ],
+    "props": {
+      "blockClass": "productColumn",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-product-twelve": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Paquete Podcast Shure Mv7 Con Trípode De Mesa Manfrotto](/paquete-podcast-shure-mv7-tripode-mesa-manfrotto/p)",
+      "blockClass": "title-product"
+    }
+  },
+  "rich-text#price-product-twelve": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$6,490.00",
+      "blockClass": "price-product"
+    }
+  },
+  "rich-text#price-sale-product-twelve": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "$5,999.00",
+      "blockClass": "price-sale-product"
+    }
+  },
+  "image#product-twelve": {
+    "props": {
+      "src": "https://shuremx.vtexassets.com/arquivos/ids/159378-300-300?v=637713947120470000&width=300&height=300&aspect=true",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "image-product",
+      "link": "/paquete-podcast-shure-mv7-tripode-mesa-manfrotto/p"
+    }
+  },
+  "rich-text#button-product-twelve": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver más](/paquete-podcast-shure-mv7-tripode-mesa-manfrotto/p)",
+      "blockClass": "button-product"
+    }
+  }
+
+
+}

@@ -1,0 +1,24 @@
+.container {
+  max-width: 96rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.inlineContainer {
+  margin-left: 0rem;
+}
+
+.star--filled {
+  color: #b2ff33;
+}
+
+.star--empty {
+  color: #b2ff33;
+}
+
+.reviewsHeading {
+  font-family: OstrichProper,arial,sans-serif !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  color: #000000 !important;
+}

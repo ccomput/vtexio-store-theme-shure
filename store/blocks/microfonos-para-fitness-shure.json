@@ -1,0 +1,114 @@
+{
+  "store.custom#microfonos-para-fitness": {
+    "blocks": [
+      "flex-layout.row#microfonos-para-fitness"
+    ]
+  },
+
+  "flex-layout.row#microfonos-para-fitness": {
+    "props": {
+      "fullWidth": "false"
+    },
+    "children": [
+      "flex-layout.col#microfonos-para-fitness"
+    ]
+  },
+
+  "flex-layout.col#microfonos-para-fitness": {
+    "children": [
+      "rich-text#title-microfonos-para-fitness",
+      "image#banner-microfonos-para-fitness",
+      "rich-text#text-microfonos-para-fitness",
+      "video#microfonos-para-fitness",
+      "rich-text#subtitle-microfonos-para-fitness",
+      "flex-layout.row#shelf-microfonos-para-fitness",
+      "rich-text#subtitle-kits-microfonos-para-fitness",
+      "flex-layout.row#shelf-kits-para-fitness"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "applicacionesColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-microfonos-para-fitness": {
+    "props": {
+      "text":
+      "# Microfonos para Podcast.",
+      "blockClass": "title"
+    }
+  },
+
+  "rich-text#subtitle-microfonos-para-fitness": {
+    "props": {
+      "text":
+      "## Confira os melhores microfones para podcast da Shure",
+      "blockClass": "subtitle"
+    }
+  },
+  "rich-text#subtitle-kits-microfonos-para-fitness": {
+    "props": {
+      "text":
+      "## Na Loja Shure você também tem a opção de adquirir kits completos para podcaters",
+      "blockClass": "subtitle"
+    }
+  },
+
+  "image#banner-microfonos-para-fitness": {
+    "props": {
+      "src": "https://lojashure.vteximg.com.br/arquivos/microfones-podcast-shure.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "banner"
+    }
+  },
+
+  "rich-text#text-microfonos-para-fitness": {
+    "props": {
+      "text": "Seja para quem está começando seu projeto e quer comprar seu primeiro microfone para podcast, seja para quem já produz seu conteúdo e quer dar um upgrade no microfone, a Shure tem a solução ideal para você dar o próximo passo.",
+      "blockClass": "text"
+    }
+  },
+
+  "video#microfonos-para-fitness": {
+    "props": {
+      "src": "https://www.youtube.com/embed/h5Pf80Wpcxk",
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+
+  "flex-layout.row#shelf-microfonos-para-fitness": {
+    "props": {
+      "blockClass": "shelfApplicaciones",
+      "paddingBottom": 6
+    },
+    "children": ["list-context.product-list#microfonos-para-fitness"]
+  },
+  "list-context.product-list#microfonos-para-fitness": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "178",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  "flex-layout.row#shelf-kits-para-fitness": {
+    "props": {
+      "blockClass": "shelfApplicaciones",
+      "paddingBottom": 6
+    },
+    "children": ["list-context.product-list#kits-para-fitness"]
+  },
+  "list-context.product-list#kits-para-fitness": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "178",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  }
+
+}

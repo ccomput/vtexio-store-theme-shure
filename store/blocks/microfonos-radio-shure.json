@@ -1,0 +1,114 @@
+{
+  "store.custom#microfonos-radio": {
+    "blocks": [
+      "flex-layout.row#microfonos-radio"
+    ]
+  },
+
+  "flex-layout.row#microfonos-radio": {
+    "props": {
+      "fullWidth": "false"
+    },
+    "children": [
+      "flex-layout.col#microfonos-radio"
+    ]
+  },
+
+  "flex-layout.col#microfonos-radio": {
+    "children": [
+      "rich-text#title-microfonos-radio",
+      "image#banner-microfonos-radio",
+      "rich-text#text-microfonos-radio",
+      "video#microfonos-radio",
+      "rich-text#subtitle-microfonos-radio",
+      "flex-layout.row#shelf-microfonos-radio",
+      "rich-text#subtitle-kits-microfonos-radio",
+      "flex-layout.row#shelf-kits-para-radio"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "applicacionesColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-microfonos-radio": {
+    "props": {
+      "text":
+      "# Microfonos para Podcast.",
+      "blockClass": "title"
+    }
+  },
+
+  "rich-text#subtitle-microfonos-radio": {
+    "props": {
+      "text":
+      "## Confira os melhores microfones para podcast da Shure",
+      "blockClass": "subtitle"
+    }
+  },
+  "rich-text#subtitle-kits-microfonos-radio": {
+    "props": {
+      "text":
+      "## Na Loja Shure você também tem a opção de adquirir kits completos para podcaters",
+      "blockClass": "subtitle"
+    }
+  },
+
+  "image#banner-microfonos-radio": {
+    "props": {
+      "src": "https://lojashure.vteximg.com.br/arquivos/microfones-podcast-shure.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "banner"
+    }
+  },
+
+  "rich-text#text-microfonos-radio": {
+    "props": {
+      "text": "Seja para quem está começando seu projeto e quer comprar seu primeiro microfone para podcast, seja para quem já produz seu conteúdo e quer dar um upgrade no microfone, a Shure tem a solução ideal para você dar o próximo passo.",
+      "blockClass": "text"
+    }
+  },
+
+  "video#microfonos-radio": {
+    "props": {
+      "src": "https://www.youtube.com/embed/h5Pf80Wpcxk",
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+
+  "flex-layout.row#shelf-microfonos-radio": {
+    "props": {
+      "blockClass": "shelfApplicaciones",
+      "paddingBottom": 6
+    },
+    "children": ["list-context.product-list#microfonos-radio"]
+  },
+  "list-context.product-list#microfonos-radio": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "178",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  "flex-layout.row#shelf-kits-para-radio": {
+    "props": {
+      "blockClass": "shelfApplicaciones",
+      "paddingBottom": 6
+    },
+    "children": ["list-context.product-list#kits-para-radio"]
+  },
+  "list-context.product-list#kits-para-radio": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "178",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  }
+
+}

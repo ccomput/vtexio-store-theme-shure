@@ -1,0 +1,114 @@
+{
+  "store.custom#microfonos-para-trabajar-desde-casa": {
+    "blocks": [
+      "flex-layout.row#microfonos-para-trabajar-desde-casa"
+    ]
+  },
+
+  "flex-layout.row#microfonos-para-trabajar-desde-casa": {
+    "props": {
+      "fullWidth": "false"
+    },
+    "children": [
+      "flex-layout.col#microfonos-para-trabajar-desde-casa"
+    ]
+  },
+
+  "flex-layout.col#microfonos-para-trabajar-desde-casa": {
+    "children": [
+      "rich-text#title-microfonos-para-trabajar-desde-casa",
+      "image#banner-microfonos-para-trabajar-desde-casa",
+      "rich-text#text-microfonos-para-trabajar-desde-casa",
+      "video#microfonos-para-trabajar-desde-casa",
+      "rich-text#subtitle-microfonos-para-trabajar-desde-casa",
+      "flex-layout.row#shelf-microfonos-para-trabajar-desde-casa",
+      "rich-text#subtitle-kits-microfonos-para-trabajar-desde-casa",
+      "flex-layout.row#shelf-kits-para-casa"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "applicacionesColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-microfonos-para-trabajar-desde-casa": {
+    "props": {
+      "text":
+      "# Microfonos para Podcast.",
+      "blockClass": "title"
+    }
+  },
+
+  "rich-text#subtitle-microfonos-para-trabajar-desde-casa": {
+    "props": {
+      "text":
+      "## Confira os melhores microfones para podcast da Shure",
+      "blockClass": "subtitle"
+    }
+  },
+  "rich-text#subtitle-kits-microfonos-para-trabajar-desde-casa": {
+    "props": {
+      "text":
+      "## Na Loja Shure você também tem a opção de adquirir kits completos para podcaters",
+      "blockClass": "subtitle"
+    }
+  },
+
+  "image#banner-microfonos-para-trabajar-desde-casa": {
+    "props": {
+      "src": "https://lojashure.vteximg.com.br/arquivos/microfones-podcast-shure.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "banner"
+    }
+  },
+
+  "rich-text#text-microfonos-para-trabajar-desde-casa": {
+    "props": {
+      "text": "Seja para quem está começando seu projeto e quer comprar seu primeiro microfone para podcast, seja para quem já produz seu conteúdo e quer dar um upgrade no microfone, a Shure tem a solução ideal para você dar o próximo passo.",
+      "blockClass": "text"
+    }
+  },
+
+  "video#microfonos-para-trabajar-desde-casa": {
+    "props": {
+      "src": "https://www.youtube.com/embed/h5Pf80Wpcxk",
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+
+  "flex-layout.row#shelf-microfonos-para-trabajar-desde-casa": {
+    "props": {
+      "blockClass": "shelfApplicaciones",
+      "paddingBottom": 6
+    },
+    "children": ["list-context.product-list#microfonos-para-trabajar-desde-casa"]
+  },
+  "list-context.product-list#microfonos-para-trabajar-desde-casa": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "178",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  "flex-layout.row#shelf-kits-para-casa": {
+    "props": {
+      "blockClass": "shelfApplicaciones",
+      "paddingBottom": 6
+    },
+    "children": ["list-context.product-list#kits-para-casa"]
+  },
+  "list-context.product-list#kits-para-casa": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "178",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  }
+
+}

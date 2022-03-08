@@ -1,0 +1,45 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+.sliderLayoutContainer--carousel {
+  background-color: #F0F0F0;
+}
+.slideChildrenContainer--carousel {
+  font-size: 0;
+}
+
+.sliderTrackContainer {
+  max-width: 1920px;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.paginationDot--isActive {
+  background-color: #b2ff33;
+}
+
+.sliderLayoutContainer--shelf {
+  max-width: 1300px;
+}
+
+@media only screen and (max-width: 640px) {
+  .sliderLayoutContainer--shelf {
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+  }
+}
