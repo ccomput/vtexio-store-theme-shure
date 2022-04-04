@@ -54,7 +54,7 @@
 }
 
 .styledLinkContent--menu-item-app {
-    color: #ffffff;
+    color: #ffffff !important;
     font-size: 1.2rem;
     justify-content: center;
 }
