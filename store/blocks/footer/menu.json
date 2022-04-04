@@ -282,7 +282,7 @@
       }
     }
   },
-  
+
 
   "vtex.menu@2.x:menu#Products": {
     "props": {
@@ -581,13 +581,13 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#mv5",
-      "menu-item#mv7",
-      "menu-item#sm7b",
-      "menu-item#aonic50"
+      "menu-item#mv5-f",
+      "menu-item#mv7-f",
+      "menu-item#sm7b-f",
+      "menu-item#aonic50-f"
     ]
   },
-  "menu-item#mv5": {
+  "menu-item#mv5-f": {
     "props": {
       "id": "menu-item-shure",
       "blockClass": "menu-item-app",
@@ -603,7 +603,7 @@
       }
     }
   },
-  "menu-item#mv7": {
+  "menu-item#mv7-f": {
     "props": {
       "id": "menu-item-shure",
       "blockClass": "menu-item-app",
@@ -619,7 +619,7 @@
       }
     }
   },
-  "menu-item#sm7b": {
+  "menu-item#sm7b-f": {
     "props": {
       "id": "menu-item-shure",
       "blockClass": "menu-item-app",
@@ -635,7 +635,7 @@
       }
     }
   },
-  "menu-item#aonic50": {
+  "menu-item#aonic50-f": {
     "props": {
       "id": "menu-item-shure",
       "blockClass": "menu-item-app",
@@ -657,13 +657,13 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#mv88",
+      "menu-item#mv88-f",
       "menu-item#mvi",
       "menu-item#sm57",
       "menu-item#sm58"
     ]
   },
-  "menu-item#mv88": {
+  "menu-item#mv88-f": {
     "props": {
       "id": "menu-item-shure",
       "blockClass": "menu-item-app",
@@ -733,10 +733,10 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#mv88",
+      "menu-item#mv88-f",
       "menu-item#mv88p",
-      "menu-item#mv7",
-      "menu-item#sm7b"
+      "menu-item#mv7-f",
+      "menu-item#sm7b-f"
     ]
   },
   "menu-item#mv88p": {
@@ -761,13 +761,13 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#mv88",
+      "menu-item#mv88-f",
       "menu-item#mv88p",
-      "menu-item#mv51",
-      "menu-item#kit-youtuber"
+      "menu-item#mv51-f",
+      "menu-item#kit-youtuber-f"
     ]
   },
-  "menu-item#mv51": {
+  "menu-item#mv51-f": {
     "props": {
       "id": "menu-item-shure",
       "blockClass": "menu-item-app",
@@ -783,7 +783,7 @@
       }
     }
   },
-  "menu-item#kit-youtuber": {
+  "menu-item#kit-youtuber-f": {
     "props": {
       "id": "menu-item-shure",
       "blockClass": "menu-item-app",
@@ -805,13 +805,13 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#mv7",
-      "menu-item#se215",
+      "menu-item#mv7-f",
+      "menu-item#se215-f",
       "menu-item#srh240",
-      "menu-item#aonic50"
+      "menu-item#aonic50-f"
     ]
   },
-  "menu-item#se215": {
+  "menu-item#se215-f": {
     "props": {
       "id": "menu-item-shure",
       "blockClass": "menu-item-app",

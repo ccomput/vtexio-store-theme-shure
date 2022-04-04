@@ -15,7 +15,9 @@
   text-transform: uppercase;
   color: #000000;
 }
-
+.headingLevel1--title {
+  color: #000000;
+}
 .headingLevel2--shelfTitle, .headingLevel2--shelfTitle-app {
   font-weight: 500;
   text-transform: uppercase;
