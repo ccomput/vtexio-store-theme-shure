@@ -1,7 +1,7 @@
 {
   "vendor": "lojashure",
   "name": "shure-outbox",
-  "version": "4.4.22",
+  "version": "4.4.23",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -66,7 +66,7 @@
     "vtex.css-handles": "1.x",
     "vtex.address-form": "4.x",
     "vtex.iframe": "0.x",
-    "lojashure.shure-outbox-about-prod": "0.x"
+    "lojashure.shure-outbox-about-prod": "2.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x"
